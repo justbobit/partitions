@@ -1,0 +1,6 @@
+ClarOne = 
+{
+\clef "treble" \key aes \major r4 | r1 | r1 | r1 | r2 r4. bes16 c | 
+des8. c16~ c8 bes~ bes16 aes8. f4 | r2 r4. bes16 c | 
+des8. c16 bes16 aes8 aes16~ aes4 r4 |
+}

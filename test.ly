@@ -3,6 +3,8 @@
 \include "lilypond-book-preamble.ly"
 \include "TromOne.lyi"
 \include "TenorOne.lyi"
+\include "ClarOne.lyi"
+\include "AltSaxOne.lyi"
 
 % ****************************************************************
 % Start cut-&-pastable-section
@@ -31,10 +33,24 @@
 % ****************************************************************
 \sourcefileline 926
 <<
-  \new Staff \with {
-    instrumentName = #"Bass"
+
+% ****************************************************************
+%Clar + Soprano
+\new Staff \with {
+    instrumentName = \markup {
+      \center-column { "Clarinette"}
+    }
   }
-  { \key aes \major \partial 4 r4 | bes1 | ees1 | ges | f2. r4 |}
+  \relative c'' {\ClarOne}
+ 
+%Saxos
+\new Staff \with {
+    instrumentName = \markup {
+      \center-column { "A.S."}
+    }
+  }
+  \relative c' {\AltSaxOne} 
+
 % ****************************************************************
   %Trombone
   \new Staff \with {
@@ -46,15 +62,6 @@
 
 
 % ****************************************************************
-%Saxos
-\new Staff \with {
-    instrumentName = \markup {
-      \center-column { "A.S."}
-    }
-  }
-  \relative c' {\clef "treble" \key aes \major r4 | R1*5  | 
-  r4 << { r8. aes' ~ aes4 } \\ { ees4.~ <<ees4 f4>>} >>  }
-
 
   \new Staff \with {
     instrumentName = \markup {
@@ -72,16 +79,10 @@
   \relative c' {\clef "treble" \key aes \major f16 f' f, f' | bes,8 r8 bes8 r8 bes8 r8 bes8 r8 | ees8 r8 ees8 r8 ees8 r8 ees8 r8 \break 
 				| ees8 r8 ees8 r8 ees8 r8 ees8 r8}
 
-
-
-% ****************************************************************
-%autre suces-bambous
-\new Staff \with {
-    instrumentName = \markup {
-      \center-column { "Clarinette"}
-    }
+ \new Staff \with {
+    instrumentName = #"Bass"
   }
-  \relative c'' {\clef "treble" \key aes \major r4 | r1 | r1 | r1 | r2 r4. bes16 c | des8. c16~ c8 bes~ bes16 aes8. aes4}
+  { \key aes \major \partial 4 r4 | bes1 | ees1 | ges | f2. r4 |}
 
 >>
 

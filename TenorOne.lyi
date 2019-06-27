@@ -2,5 +2,8 @@ TenorOne = \relative c'
 {
   %  \clef alto
   r4 | r4 <f, aes des ees>2~ <f aes des ees>8. < aes bes des>16~ | <aes bes des>1 |
-  r4 <f aes des ees>2~ <f aes des ees>8. <aes bes des>16 |
+  r4 <f aes des ees>2~ <f aes des ees>8. <aes bes des>16~ | <aes bes des>1 |
+  r4 <f aes des ees>2~ <f aes des ees>8. <aes bes des>16~ | <aes bes des>1 |
+  r4 <f aes des ees>2~ <f aes des ees>8. <aes bes des>16~ | <aes bes des>1 |
+  
 }

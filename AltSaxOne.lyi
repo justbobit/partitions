@@ -1,0 +1,4 @@
+AltSaxOne = 
+{\clef "treble" \key aes \major r4 | R1*5  | 
+  r4 << { r8. aes' ~ aes4 } \\ { ees4.~ <<ees4 f4>>} >> r8 | r1 |  r4 << { r8. aes ~ <<bes4 aes4>> } \\ { f4.~ f4} >> r8 |
+}
