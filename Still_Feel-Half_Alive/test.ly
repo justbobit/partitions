@@ -3,6 +3,7 @@
 \include "TenorOne.lyi"
 \include "ClarOne.lyi"
 \include "AltSaxOne.lyi"
+\include "Saxbar.ily"
 
 % ****************************************************************
 % Start cut-&-pastable-section
@@ -74,8 +75,7 @@
       \center-column { "Sax Bar"}
     }
   }
-  \relative c' {\clef "treble" \key aes \major f16 f' f, f' | bes,8 r8 bes8 r8 bes8 r8 bes8 r8 | ees8 r8 ees8 r8 ees8 r8 ees8 r8 \break 
-				| ees8 r8 ees8 r8 ees8 r8 ees8 r8}
+  \relative c' {}
 
  \new Staff \with {
     instrumentName = #"Bass"
