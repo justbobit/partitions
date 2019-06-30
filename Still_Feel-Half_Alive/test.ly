@@ -14,10 +14,6 @@
 {
   \score{
 
-
-
-
-
 \relative c'
 {
 
@@ -33,6 +29,13 @@
 \new Staff \with {
     instrumentName = \markup {
       \center-column { "Clarinette"}
+    }
+  }
+  \relative c'' {\ClarOne}
+
+\new Staff \with {
+    instrumentName = \markup {
+      \center-column { "Trompette"}
     }
   }
   \relative c'' {\ClarOne}
@@ -52,7 +55,7 @@
       \center-column { "Trombone"}
     }
   }
-  \relative c' {\clef "bass" \key aes \major \TromOne}
+  \relative c' {\clef "bass" \key des \major \TromOne}
 
 
 % ****************************************************************
@@ -62,7 +65,7 @@
       \center-column { "Sax Tenor"}
     }
   }
-  {\clef "treble" \key aes \major \TenorOne}
+  {\clef "treble" \key des \major \TenorOne}
 
 
 \new Staff \with {
@@ -83,7 +86,7 @@
  \new Staff \with {
     instrumentName = #"Bass"
   }
-  { \key aes \major \relative c' \Bass}
+  { \key des \major \relative c' \Bass}
 
 >>
 

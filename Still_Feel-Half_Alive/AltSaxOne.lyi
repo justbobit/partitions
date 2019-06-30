@@ -1,7 +1,14 @@
 AltSaxOne = 
-{\clef "treble" \key aes \major r4 | 
-R1*5  |   r4 << { r8. aes' ~ aes4 } \\ { ees4.~ <<ees4 f4>>} >> r8 | 
-r1 |  r4 << { r8. aes ~ <<bes4 aes4>> } \\ { f4.~ f4} >> r8    | 
-r1 |  r4 << { r8. aes ~ aes4 } \\ { ees4.~ <<ees4 f4>>} >> r8 | 
-r1 |  r2. <aes c ees f>4-> |
+{\clef "treble" \key des \major 
+%Intro
+r4 | 
+R1*5  |  r4 << { r8. aes' ~ aes4 }         \\ { ees4.~ <<ees4 f4>>} >> r8 | 
+r1    |  r4 << { r8. aes ~ <bes aes>4-> } \\ { f4.~ f4} >> r8            | 
+r1    |  r4 << { r8. aes ~ aes4 }          \\ { ees4.~ <<ees4 f4>>} >> r8 | 
+r1    |  r2. <aes c ees f>4-> 											  |
+%--------------
+%A
+\mark "A"
+r1 | r4 << { r8. aes ~ aes4 } \\ { ees4.~ <<ees4 f4>>} >> r8 | 
+r1 | r4 << { r8. aes ~ <bes aes>4-> } \\ { f4.~ f4} >> r8    | 
  }
