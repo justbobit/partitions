@@ -4,23 +4,18 @@
 \include "ClarOne.lyi"
 \include "AltSaxOne.lyi"
 \include "Saxbar.ily"
+\include "Bass.ily"
 
 % ****************************************************************
 % Start cut-&-pastable-section
 % ****************************************************************
 
-\paper
+\book 
 {
-  #(define page-breaking ly:minimal-breaking)
-  %ragged-last-bottom = ##f
-}
+  \score{
 
-\layout {
-  
-}
-\midi {
-      \tempo 4 = 88
-    }
+
+
 
 
 \relative c'
@@ -67,7 +62,7 @@
       \center-column { "Sax Tenor"}
     }
   }
-  \relative c' {\clef "treble" \key aes \major \TenorOne}
+  {\clef "treble" \key aes \major \TenorOne}
 
 
 \new Staff \with {
@@ -75,16 +70,25 @@
       \center-column { "Sax Bar"}
     }
   }
-  \relative c' {}
+  \relative c' {\SaxBar}
+
+\new Staff \with {
+    instrumentName = \markup {
+      \center-column { "Eupho"}
+    }
+  }
+  \relative c' {\SaxBar}
+
 
  \new Staff \with {
     instrumentName = #"Bass"
   }
-  { \key aes \major \partial 4 r4 | bes1 | ees1 | ges | f2. r4 |}
+  { \key aes \major \relative c' \Bass}
 
 >>
 
-
+}
+}
 
 % ****************************************************************
 % end ly snippet
