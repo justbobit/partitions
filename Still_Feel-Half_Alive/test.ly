@@ -1,14 +1,28 @@
 \include "lilypond-book-preamble.ly"
 \include "TromOne.lyi"
 \include "TenorOne.lyi"
+\include "TenorTwo.ily"
 \include "ClarOne.lyi"
 \include "AltSaxOne.lyi"
-\include "Saxbar.ily"
-\include "Bass.ily"
+\include "AltSaxTwo.ily"
+\include "SaxBar.ily"
+\include "bass.ily"
 
 % ****************************************************************
 % Start cut-&-pastable-section
 % ****************************************************************
+
+\paper {
+  #(set-default-paper-size "a4landscape")
+  ragged-bottom = ##t
+  % For 3 page layout:
+  #(layout-set-staff-size 15)
+  bottom-margin =12
+  %annotate-spacing = ##t
+  %{ %}
+  between-system-padding = 0
+  ragged-last-bottom = ##f
+}
 
 \book 
 {
@@ -40,13 +54,38 @@
   }
   \relative c'' {\ClarOne}
  
+% ****************************************************************
 %Saxos
 \new Staff \with {
     instrumentName = \markup {
-      \center-column { "A.S."}
+      \center-column { "A.S. I"}
     }
   }
   \relative c' {\AltSaxOne} 
+
+\new Staff \with {
+    instrumentName = \markup {
+      \center-column { "A.S. II"}
+    }
+  }
+  \relative c' {\AltSaxTwo} 
+
+% ****************************************************************
+
+  \new Staff \with {
+    instrumentName = \markup {
+      \center-column { "Sax Tenor I"}
+    }
+  }
+  {\clef "treble" \key des \major \TenorOne}
+
+\new Staff \with {
+    instrumentName = \markup {
+      \center-column { "Sax Tenor II"}
+    }
+  }
+  {\clef "treble" \key des \major \TenorTwo}
+
 
 % ****************************************************************
   %Trombone
@@ -57,16 +96,7 @@
   }
   \relative c' {\clef "bass" \key des \major \TromOne}
 
-
 % ****************************************************************
-
-  \new Staff \with {
-    instrumentName = \markup {
-      \center-column { "Sax Tenor"}
-    }
-  }
-  {\clef "treble" \key des \major \TenorOne}
-
 
 \new Staff \with {
     instrumentName = \markup {
