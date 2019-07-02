@@ -3,6 +3,7 @@
 \include "TenorOne.ily"
 \include "TenorTwo.ily"
 \include "ClarOne.ily"
+\include "Trumpet.ily"
 \include "AltSaxOne.ily"
 \include "AltSaxTwo.ily"
 \include "SaxBar.ily"
@@ -52,7 +53,7 @@
       \center-column { "Trompette"}
     }
   }
-  \relative c'' {\ClarOne}
+  \relative c'' {\Trumpet}
  
 % ****************************************************************
 %Saxos
