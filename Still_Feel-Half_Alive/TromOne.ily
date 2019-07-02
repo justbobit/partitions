@@ -17,8 +17,10 @@ r4 <f aes des ees>2  <f aes des ees>8. <ges bes des>16~  | <ges bes des>4. r16 g
 r4 <f, aes des ees>2  <f aes des ees>8. <ges bes des>16~  | <ges bes des>4 r2. |
 
 \mark "B"
-bes8.->\mf des16~ des bes8 f'16->~ f8 ees~ ees4 | r1 | 
-bes8.-> des16~ des bes8 f'16->~ f8 ees~ ees4 | r1 | 
-bes8.-> des16~ des bes8 f'16->~ f8 ees~ ees4 | r2 r4. <des des,>8 | 
-\tuplet 3/2 4 { <ees, ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees ees,>4 <des des,>8 <ees ees,>4 <des des,>8\!\ff} | 
+bes8.->\mf des16~ des bes8 f'16->~ f8 ees ees4 | r1 | 
+bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r1 | 
+bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r2 r4. <des des,>8 | 
+\tuplet 3/2 4 { <ees, ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees ees,>4 <des des,>8 <ees ees,>4 <des des,>8} | 
+\tuplet 3/2 4 { <ees ees,>4 <f f,>8  <ees ees,>4 <des des,>8} <bes bes,>4\!\ff <aes aes,> | 
+
 }
