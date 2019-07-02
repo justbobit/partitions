@@ -28,7 +28,6 @@
 \book 
 {
   \score{
-
 \relative c'
 {
 
@@ -64,12 +63,6 @@
   }
   \relative c' {\AltSaxOne} 
 
-\new Staff \with {
-    instrumentName = \markup {
-      \center-column { "A.S. II"}
-    }
-  }
-  \relative c' {\AltSaxTwo} 
 
 % ****************************************************************
 
@@ -79,14 +72,6 @@
     }
   }
   {\clef "treble" \key des \major \TenorOne}
-
-\new Staff \with {
-    instrumentName = \markup {
-      \center-column { "Sax Tenor II"}
-    }
-  }
-  {\clef "treble" \key des \major \TenorTwo}
-
 
 % ****************************************************************
   %Trombone
@@ -122,6 +107,7 @@
 >>
 
 }
+
 }
 
 % ****************************************************************

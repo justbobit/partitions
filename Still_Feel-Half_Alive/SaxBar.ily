@@ -21,5 +21,8 @@ f8( bes, des-> ees f aes f'8. ees16~      | ees4  ees8-.) r16 ges,16 bes8-. des-
 f,8( bes, des-> ees f aes f8. ees16~     | ees8)  f->( ees16 des8 bes'16~ bes4) r4 	|
 %B
 \mark "B"
+<ges bes des>1 	| <f bes des>2 <f a c>2 | 
+<f bes des>2. <f bes des>4 | <ges bes ees>1 |
 <ges bes des>1 | <f bes des>2 <f a c>2 |
+| bes,4\<\mf c des ees | f ges a\!\ff r |
 }
