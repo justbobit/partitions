@@ -32,5 +32,4 @@ bes2 r4 aes | ges2. f4 | ees2 r4 des | c4 <f bes> <aes des f>2 |
 \mark "D"
 f8(\mf bes, des-> ees f aes des,8. bes16~  | bes8) r ees-. r ees-. r ees-. r |
 
-
 }

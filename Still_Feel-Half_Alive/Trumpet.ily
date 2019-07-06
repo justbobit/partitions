@@ -14,10 +14,9 @@ des16-> c8 bes16~ bes16 aes8. aes4) f16( aes8 aes16->~ 	| aes8 f-> ees16 des8 be
 bes8.->\mf des16~ des bes8 f'16->~ f8 ees ees4 | r1 | 
 bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r1 | 
 bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r2 r4. <des des,>8 | 
-\tuplet 3/2 4 { <ees, ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees ees,>4 <des des,>8 <ees ees,>4 <des des,>8} | 
-\tuplet 3/2 4 { <ees ees,>4 <f f,>8  <ees ees,>4 <des des,>8} <bes bes,>4\!\ff <aes aes,> | 
-
+<f, bes des>4\mf\< <g c ees> <aes des f> <bes ees ges> | <aes c f> <bes ees g> <c f a>\ff\! r|
 \mark "C"
 r1 | r2. bes16-> des8 c16->~ | c8 bes4. r8 f ees des16 ees~ | ees8 f4. r4. bes8 |
 r1 | r2. bes16-> des8 c16->~ | c8 bes4. r8 f ees des16 ees~ | ees8 f4  r8 aes8-. bes4.->  |
+
 }
