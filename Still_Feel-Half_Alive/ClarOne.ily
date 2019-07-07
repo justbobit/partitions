@@ -23,10 +23,16 @@ r1 					 | f16-> ees8 des16~ des16 ees8-> ees16-> r8 des ees des |
 \tuplet 3/2 4 { <ees ees,>4 <f f,>8  <ees ees,>4 <des des,>8} <bes bes,>4\!\ff <aes aes,> | 
 
 \mark "C"
-r8 f-. bes-. f-. r f-. bes-. f-. | r f8-. bes-. f-. r f-. bes-. f-. | 
+r8 f-.\mf bes-. f-. r f-. bes-. f-. | r f8-. bes-. f-. r f-. bes-. f-. | 
 r f8-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. a-. f-. a-. f-. |
 
 r8 f-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. r f-. bes-. f-. | 
 r f-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. r2 |
 
+\mark "D"
+R1*3 | r2 r8 f(\f bes16 c8 des16 |
+
+des8.-> c16~ c8 bes~ bes16 aes8. f4)  					| r2 r4. bes16( c       				|
+des8. c16 bes16 aes8 aes16~ aes4 ) r4 			| r2  bes4~ bes16 aes-> bes c 				|
+des8. c16 bes8.-> aes16~ aes8 f~ f4 |
 }

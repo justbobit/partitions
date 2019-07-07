@@ -28,4 +28,13 @@ bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r1 |
 r2 r8 <f' f'> <ees ees'> <des des'>16 <ees ees'>~ | <ees ees'>8 <f f'>4. r4. bes8 |
 <f f'>4(  <f f'> <f f'> <f f'>8. <ees ees'>16~ | <ees ees'> <des des'> <bes bes'>8~  <bes bes'>2) r4 |
 r2 r8 <f' f'> <ees ees'> <des des'>16 <ees ees'>~ | <ees ees'>8 <f f'>4  r8 <aes, aes'>8-. <bes bes'>4.-> |
+
+\mark "D"
+r4 <f' aes des ees>2\mp <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
+r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
+
+r4 <f aes des ees>2 <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
+r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
+r4 <f aes des ees>2 <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
+r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>2 r2 |
 }

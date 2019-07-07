@@ -22,6 +22,10 @@ bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |
 
 \mark "D"
 f8(\mf bes, des-> ees f aes des,8. bes16~  | bes8) r ees-. r ees-. r ees-. r |
+f8( bes, des-> ees f aes f8. aes16~    | aes4)  r2. |
 
+R1*4 |  %couplet cool
 
+f8( bes, des-> ees f aes f'8. ees16~    | ees4  ees8-.) r8 r2
+f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 } 

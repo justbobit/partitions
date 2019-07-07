@@ -30,5 +30,8 @@ r1 					 | f16-> ees8 des16~ des16 ees8-> ees16-> r8 des ees des |
 r2 r8 f' ees des16 ees~ | ees8 f4. r4. bes8 |
 <f f'>4(  <f f'> <f f'> <f f'>8. <ees ees'>16~ | <ees ees'> <des des'> <bes bes'>8~  <bes bes'>2) r4 |
 r2 r8 f' ees des16 ees~ | ees8 f4 r8 aes8-. bes4.-> |
+\mark "D"
+r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. | r8 ees,16( f aes8. bes16-.) r2 |
+r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. | r8 f16( aes aes bes des ees) r2
 
 }

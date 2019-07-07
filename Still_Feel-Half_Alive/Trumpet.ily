@@ -16,7 +16,9 @@ bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r1 |
 bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r2 r4. <des des,>8 | 
 <f, bes des>4\mf\< <g c ees> <aes des f> <bes ees ges> | <aes c f> <bes ees g> <c f a>\ff\! r|
 \mark "C"
-r1 | r2. bes16-> des8 c16->~ | c8 bes4. r8 f ees des16 ees~ | ees8 f4. r4. bes8 |
-r1 | r2. bes16-> des8 c16->~ | c8 bes4. r8 f ees des16 ees~ | ees8 f4  r8 aes8-. bes4.->  |
+r1 | r2. bes16->\f des8 c16->~ | c8 bes4. r8 f\mf ees des16 ees~ | ees8 f4. r4. bes8 |
+r1 | r2. bes16->\f des8 c16->~ | c8 bes4. r8 f\mf ees des16 ees~ | ees8 f4  r8 aes8-. bes4.->  |
 
+\mark "D"
+R1*3 | r2 r8 f\f bes16 c8 des16 |
 }
