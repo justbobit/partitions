@@ -34,6 +34,6 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 
 
 \mark "E"
-\NotesBTrumpet
+\relative c'' \NotesBTrumpet
 
 }
