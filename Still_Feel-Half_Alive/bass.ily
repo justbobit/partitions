@@ -1,3 +1,8 @@
+NotesBBass = {
+ges4->\mf ges->  ges-> ges-> | <f bes,> <f bes,> <a f> <a f>-> | <f bes> <f bes> <f bes> f | ees ees ees ees16 f8. |
+ges4->\mf ges->  ges-> ges-> | f f a a-> | bes,\<\mf c des ees | f ges a\!\ff r |
+}
+
 Bass =  {
 
 %Intro
@@ -14,11 +19,11 @@ f8( bes, des-> ees f aes f'8. ees16~    | ees4  ees8-.) r16 ges,16 bes8-. des-. 
 f,8 bes, des-> ees f aes f8. ees16~     | ees8  f-> ees16 des8 bes'16~ bes4 r4 		  |
 
 \mark "B"
-ges4->\mf ges->  ges-> ges-> | <f bes,> <f bes,> <a f> <a f>-> | <f bes> <f bes> <f bes> f | ees ees ees ees16 f8. |
-ges4->\mf ges->  ges-> ges-> | f f a a-> | bes,\<\mf c des ees | f ges a\!\ff r |
+\NotesBBass
+
 \mark "C"
 bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
-bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |
+bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |	
 
 \mark "D"
 f8(\mf bes, des-> ees f aes des,8. bes16~  | bes8) r ees-. r ees-. r ees-. r |
@@ -28,4 +33,12 @@ R1*4 |  %couplet cool
 
 f8( bes, des-> ees f aes f'8. ees16~    | ees4  ees8-.) r8 r2
 f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
+
+\mark "E"
+\NotesBBass
+
+\mark "F"
+bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
+bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |	
+
 } 
