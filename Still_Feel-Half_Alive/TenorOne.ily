@@ -63,9 +63,9 @@ r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. | r8 f16( aes aes bes des ees) r2
 \NotesFTenor
 
 \mark "G"
-<bes des f>1_\markup{\italic a defaut trombone} |  <bes, des ges>1 | <bes des ges>1 | <bes des aes'>1 | 
+<bes des f>1_\markup{\italic {a defaut trombone}} |  <bes, des ges>1 | <bes des ges>1 | <bes des aes'>1 | 
 <bes des f>1 |  <bes des ges>1 | <bes des ges>1 | <bes des aes'>1 |
-<bes des f>1_\markup{ \italic plus a defaut} |  <bes des ges>1 | <bes des ges>1 | 
+<bes des f>1_\markup{ \italic {plus a defaut}} |  <bes des ges>1 | <bes des ges>1 | 
 <bes des aes'>4 <bes des aes'>4 <bes ees aes>4-> <bes ees a>4->
 
 \mark "H"

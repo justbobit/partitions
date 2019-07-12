@@ -57,4 +57,9 @@ R1*4 |
 
 <bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
 r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
+
+\mark "I"
+<f' f'>4 <f f'> <aes aes'> <bes des ges>8. <bes des ges>16~ | <bes des ges>2 r4 bes16 des8 c16~ |
+c8 bes4. r2 | r2. r8 bes8 f'4 f f
+
 }
