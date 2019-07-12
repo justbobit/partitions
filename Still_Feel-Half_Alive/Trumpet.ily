@@ -1,7 +1,7 @@
 NotesBTrumpet = {
-	bes8.->\mf des16~ des bes8 f'16->~ f8 ees ees4 | r1 | 
-	bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r1 | 
-	bes8.-> des16~ des bes8 f'16->~ f8 ees ees4 | r2 r4. <des des,>8 | 
+	\repeat unfold 3 {
+		bes8.->\mf des16~ des bes8 f'16->~ f8 ees~ ees4 | r1 | 
+	}
 	<f, bes des>4\mf\< <g c ees> <aes des f> <bes ees ges> | <aes c f> <bes ees g> <c f a>\ff\! r|
 }
 
