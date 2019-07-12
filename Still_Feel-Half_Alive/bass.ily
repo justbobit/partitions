@@ -9,6 +9,14 @@ bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |
 bes2 r4 \tuplet 3/2 4 {aes8 r ges->~} | ges2. f4 | ees2 r4 des | c2 f |	
 bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |	
 }
+
+NotesGBass = {
+bes8.\mp bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. |bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. |
+bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. |bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. |
+bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. | bes8. bes16 r2. |
+}
+
+
 Bass =  {
 
 %Intro
@@ -45,5 +53,17 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 
 \mark "F"
 \NotesFBass
+
+\mark "G"
+\NotesGBass
+
+\mark "H"
+\repeat unfold 3 {<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
+<bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. | }
+
+<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
+r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
+
+
 
 } 

@@ -1,9 +1,9 @@
 NotesBAltSax= {
-	r1 				   | f16-> ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des |
+	r1 				   | f'16-> ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des |
 r2 r4 r8 des16->( ees | ees ees ees ees~ ees des8 f16~ f8.) des16( ees8 des) |
 r1 					 | f16-> ees8 des16~ des16 ees8-> ees16-> r8 des ees des |
-\tuplet 3/2 4 { <ees ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees ees,>4 <des des,>8 <ees ees,>4 <des des,>8} | 
-\tuplet 3/2 4 { <ees ees,>4 <f f,>8  <ees ees,>4 <des des,>8} <bes bes,>4\!\ff <aes aes,> | 
+\tuplet 3/2 4 { <ees, ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees ees,>4 <des des,>8 <ees ees,>4 <des des,>8} | 
+\tuplet 3/2 4 { <ees ees,>4 <f f,>8  <ees ees,>4 <des des,>8} bes4\!\ff aes | 
 
 }
 
@@ -68,4 +68,19 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 \mark "F"
 \NotesFAltSax
 
+\mark "G"
+R1*5 |
+f'16->\mp ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des |
+bes8 r r2 r8 des16->( ees | ees ees ees ees~ ees des8 f16~ f8.) des16( ees8 des) |
+r2. 	f16 aes8 bes16~ | bes16 aes8 f16~ f8 des ees f ees des-> |
+r2. bes16 des8 ees16~ | ees2 <c f> |
+
+
+\mark "H"
+r8 ees-> bes bes des16 ees r ees r8. bes16 | des ees r ees r8. bes16 des ees r f r des8. |
+r8 ees4 bes16 bes des ees r ees r8 bes16 des | r des r ees r bes r des r ees r f r des8. |
+r8 <bes ees> bes bes <f des'>16 <f ees'> r <f ees'> r8. <f bes>16 |
+<f des'>-> <f ees'> r <f ees'> r8. <f bes>16 <f des'>-> <f ees'> r <f f'> r <aes des>8. |
+r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des, aes'> |
+r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r f8. |
   }

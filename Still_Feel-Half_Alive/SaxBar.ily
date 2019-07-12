@@ -52,4 +52,18 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 
 \mark "F"
 \relative c'' {\NotesFBass}
+
+\mark "G"
+\relative c' {\NotesGBass}
+
+\mark "H"
+R1*2
+\repeat unfold 2 {<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
+<bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. | }
+
+<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
+r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
+
+
+
 }

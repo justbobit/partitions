@@ -44,4 +44,17 @@ r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>2
 \mark "F"
 \relative c {\NotesFTenor}
 
+\mark "G"
+<bes des f>1\mp |  <bes des ges>1 | <bes des ges>1 | <bes des aes'>1 | 
+<bes des f>1	  |  <bes des ges>1 | <bes des ges>1 | <bes des aes'>1 |
+<bes des f>1 		|  <bes des ges>1 | <bes des ges>1\< | 
+<bes des aes'>4 <bes des aes'>4 <bes ees aes>4-> <bes ees a>4->\!\f |
+
+\mark "H"
+R1*4 |
+<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
+<bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. |
+
+<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
+r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
 }

@@ -47,4 +47,18 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 <f f'>4(\f  <f f'> <aes aes'> <des, des'>8. <ees ees'>16~ | <ees ees'> <des des'> <bes bes'>8~  <bes bes'>2)  bes'16-> des8 c16->~ |
  c8 bes4. r8 f\mf ees des16 ees~ | ees8 f4  r8 aes8-. bes4.->  |
 
+
+\mark "G"
+R1*4 |
+bes8.->\mp_\markup {\italic étouffé} des16~ des bes8 f'16->~ f8 ees~ ees4 | r1 | 
+bes8.-> des16~ des bes8 f'16->~ f8 ees~ ees4 | r1 | 
+bes8.-> des16~ des bes8 f'16->~ f8 ees~ ees4 | r1 | 
+bes8.->\mf des16~ des bes8 f'16->~ f8 ees~ ees4 | r1 | 
+
+\mark "H"
+R1*6 |
+r8 <aes, ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des, aes'> |
+r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r f8. |
+
+
 }

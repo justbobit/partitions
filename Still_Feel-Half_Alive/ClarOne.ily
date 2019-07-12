@@ -51,4 +51,15 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 \mark "F"
 \NotesFAltSax
 
+\mark "G"
+<f bes>1\mp | <ges bes> | <g bes des> | <aes bes des> |
+<f bes>1 | <ges bes> | <g bes des> | <aes bes des> |
+<f bes>1 | <ges bes> | <g bes des>\< | <aes bes des>\!\f |
+
+\mark "H"
+R1*4 |
+r8 <bes ees> bes bes <f des'>16 <f ees'> r <f ees'> r8. <f bes>16 |
+<f des'>-> <f ees'> r <f ees'> r8. <f bes>16 <f des'>-> <f ees'> r <f f'> r <aes des>8. |
+r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des, aes'> |
+r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r f8. |
 }
