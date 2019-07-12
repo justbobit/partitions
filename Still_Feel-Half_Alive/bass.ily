@@ -55,14 +55,14 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 \NotesFBass
 
 \mark "G"
-\NotesGBass
+\relative c' {\NotesGBass}
 
 \mark "H"
-\repeat unfold 3 {<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
-<bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. | }
+\repeat unfold 3 {bes,4 bes-. r4 r8. aes16 | 
+bes16 bes8 aes16 bes4-. r4 f'16 aes,8. | }
 
-<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
-r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
+bes4 bes-. r4 r8. aes16 | 
+r bes r bes r bes r bes r bes r bes r bes r8 |
 
 
 
