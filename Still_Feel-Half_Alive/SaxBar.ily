@@ -1,3 +1,6 @@
+\include "bass.ily"
+
+
 NotesBBar = {
 <ges bes des>1 | <f bes des>2 <f a c>2 | <f bes des>2. <f bes des>4 | <ges bes ees>1 |
 <ges bes des>1 | <f bes des>2 <f a c>2 | 
@@ -47,5 +50,6 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 \mark "E"
 \NotesBBar
 
-
+\mark "F"
+\relative c'' {\NotesFBass}
 }

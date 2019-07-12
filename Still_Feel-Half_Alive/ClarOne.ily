@@ -1,3 +1,5 @@
+\include "AltSaxOne.ily"
+
 NotesBClar = {
 r1 				   		| f16-> ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des 	|
 r2 r4 r8 des16->( ees 	| ees ees ees ees~ ees des8 f16~ f8.) des16( ees8 des) 	|
@@ -44,6 +46,9 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 
 
 \mark "E"
-\NotesBClar
+\relative c' {\NotesBClar}
+
+\mark "F"
+\NotesFAltSax
 
 }

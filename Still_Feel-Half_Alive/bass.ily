@@ -3,6 +3,12 @@ ges4->\mf ges->  ges-> ges-> | <f bes,> <f bes,> <a f> <a f>-> | <f bes> <f bes>
 ges4->\mf ges->  ges-> ges-> | f f a a-> | bes,\<\mf c des ees | f ges a\!\ff r |
 }
 
+NotesFBass = {
+bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
+bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |
+bes2 r4 \tuplet 3/2 4 {aes8 r ges->~} | ges2. f4 | ees2 r4 des | c2 f |	
+bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |	
+}
 Bass =  {
 
 %Intro
@@ -38,7 +44,6 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 \NotesBBass
 
 \mark "F"
-bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
-bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |	
+\NotesFBass
 
 } 

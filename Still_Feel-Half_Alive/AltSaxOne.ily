@@ -7,6 +7,24 @@ r1 					 | f16-> ees8 des16~ des16 ees8-> ees16-> r8 des ees des |
 
 }
 
+NotesFAltSax = {
+r8 f,-.\mf bes-. f-. r f-. bes-. f-. | r f8-. bes-. f-. r f-. bes-. f-. | 
+r f8-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. a-. f-. a-. f-. |
+
+r8 f-. bes-. f-. r f-. bes-. f-. | r f8-. bes-. f-. r f-. bes-. f-. | 
+r f8-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. a-. f-. a-. f-. |
+
+<des f bes>2-> r4 \tuplet 3/2 {r4 <des ges bes>8->~} | <des ges bes>4 f' 
+%voix 1
+<<{ r4 f~ 	| f f2 f4~  | f f2 f4~ 		
+| f f2 f4~ 	| f f2 f4~ 	| f f2 f4~ 	| f f2 f4~ 		} 
+\\
+%voix 2
+{<f, bes>2\mf				| <f bes>2 <f bes>2 | <f bes>2 <f a>2 
+     <f bes>2	<f bes>2	| <f bes>2 <f bes>2 | <f bes>2 <f bes>2 | <f bes>2 <f a>2}
+>>
+}
+
 AltSaxOne = 
 {
 	\clef "treble" \key des \major 
@@ -20,12 +38,12 @@ r1    |  r2. <aes c ees f>8-> bes16( c16 								 	 |
 %A
 \mark "A"
 
- des8.-> c16~ c8 bes~ bes16 aes8. f4) | r4  << { r8. aes ~ aes4 } \\ { ees4.~\mf <<ees4 f4>>} >> r8 | 
-r4 <f aes des ees>2\p  <f aes des ees>8. <ges bes des>16~ | 
-<ges bes des>4    << { r8. aes ~ <bes aes>4-> } \\ { f4.~\mf f4} >> r8 | 
-r4 <f aes des ees>2\p  <f aes des ees>8. <ges bes des>16~ | 
-<ges bes des>4 << { r8. aes ~ aes4 } \\ { ees4.~\mf <<ees4 f4>>} >> r8 | 
-r4 <f aes des ees>2\p  <f aes des ees>8. <ges bes des>16~ | <ges bes des>8 f8->\f ees16 des8 bes'16~ bes4 r4 					 |
+ des8.-> c16~ c8 bes~ bes16 aes8. f4) | r4  << { r8. aes ~ aes4 } \\ { ees4.~\mf <<ees4 f4>>} >> bes16( c      | 
+des8. c16 bes16 aes8 f16~ f16 ees16 des8) r4 			|
+r4    << { r8. aes' ~ <bes aes>8-> } \\ { f4.~\mf f8} >> bes16( c8 des16->~ |
+des8 c  bes16-> aes8 bes16~ bes2)            			| 
+r4 << { r8. aes ~ aes4 } \\ { ees4.~\mf <<ees4 f4>>} >> bes16( c       | 
+des16-> c8 bes16~ bes16 aes8. aes4) f16( aes8 aes16->~ 	| aes8 f-> ees16 des8 bes'16~ bes4) r4 	|
 \mark "B"
 \NotesBAltSax
 
@@ -45,6 +63,9 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 
 
 \mark "E"
-\NotesBAltSax
+\relative c' {\NotesBAltSax}
 
- }
+\mark "F"
+\NotesFAltSax
+
+  }
