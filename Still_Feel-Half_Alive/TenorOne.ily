@@ -25,7 +25,7 @@ r2 r8 f' ees des16 ees~ | ees8 f4 r8 aes8-. bes4.-> |
 
 }
 
-TenorOne = \relative c'
+TenorOne =
 {
 %  \clef alto
 %Intro

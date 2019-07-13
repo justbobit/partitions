@@ -64,32 +64,27 @@
         \new Staff
         {
           #(set-accidental-style 'modern)
-          \set Staff.instrumentName = "Tenor Sax"
-          \set Staff.midiInstrument = #"tenor sax" %"
-          \relative c' {{\clef "treble" \key des \major \TenorOne}}
+          \set Staff.instrumentName = "euphonium"
+          \set Staff.midiInstrument = #"tuba" %"
+          \relative c { \partial 4 \Eupho}
         }
         \new Staff
         {
           #(set-accidental-style 'modern)
-          \set Staff.instrumentName = "Euphonium"
-          \relative c' {\Eupho}
-        }
-        \new Staff
-        {
-          #(set-accidental-style 'modern)
-          \set Staff.instrumentName = "Bar. Sax."
-          \relative c' {\SaxBar}
+          \set Staff.instrumentName = "baritone sax"
+          \set Staff.midiInstrument = #"baritone sax" %"
+          \relative c, { \partial 4 \SaxBar}
         }
         \new Staff
         {
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Tuba"
           \set Staff.midiInstrument = #"tuba" %"
-          { \key des \major \relative c' \Bass}
+          \key des \major \relative c, {\Bass}
         }
       >>
     }
-    \layout { }
+    % \layout { }
     \midi { \tempo 4=120}
   }
 }

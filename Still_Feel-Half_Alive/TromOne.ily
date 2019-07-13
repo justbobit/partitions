@@ -9,7 +9,7 @@ NotesBTrom = {
 <aes c f> <bes ees g> <c a'>\ff\! r4 |
 }
 
-TromOne = \relative c'
+TromOne =
 {
 %Intro
 r4 | 

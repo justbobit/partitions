@@ -37,9 +37,9 @@
          #(set-accidental-style 'modern)
          \set Staff.instrumentName = Clarinet
          \set Staff.midiInstrument = #"clarinet"
-         \transpose c d {\relative c'' { \partial 4 \ClarOne}}
+         \relative c'' { \partial 4 \ClarOne}
        }
-   \layout {}
+   \midi { \tempo  4 = 120}
   }
   }
   \bookpart{
@@ -49,9 +49,9 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Trumpet"
             \set Staff.midiInstrument = #"trumpet"
-            \transpose c d{\relative c'' { \partial 4 \Trumpet}}
+            \relative c'' { \partial 4 \Trumpet}
           }
-     \layout {}
+     \midi {\tempo  4 = 120 }
     }
   }
   \bookpart{
@@ -61,9 +61,9 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Alto Sax"
             \set Staff.midiInstrument = #"alto sax" %"
-            \transpose ees c {\relative c' { \partial 4 \AltSaxOne}}
+            \relative c' { \partial 4 \AltSaxOne}
           }
-     \layout {}
+     \midi { \tempo  4 = 120}
     }
   }
   \bookpart{
@@ -75,7 +75,7 @@
             \set Staff.midiInstrument = #"trombone"
             \relative c' {\clef "bass" \key des \major \partial 4 \TromOne}
           }
-         \layout {}
+         \midi {\tempo  4 = 120 }
     }
   }
   \bookpart{
@@ -85,9 +85,9 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Tenor Sax"
             \set Staff.midiInstrument = #"tenor sax" %"
-            \transpose c d {{\clef "treble" \key des \major \partial 4 \TenorOne}}
+            \relative c {\clef "treble" \key des \major \partial 4 \TenorOne}
           }
-         \layout {}
+         \midi {\tempo  4 = 120 }
     }  
   }
   \bookpart{
@@ -97,9 +97,9 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Sax Bar"
             \set Staff.midiInstrument = #"baritone sax" %"
-            \transpose ees c {\relative c' { \partial 4 \SaxBar}}
+            \relative c, { \partial 4 \SaxBar}
           }
-         \layout {}
+         \midi {\tempo  4 = 120 }
     }
   }
   \bookpart{
@@ -109,9 +109,9 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Euphonium"
             \set Staff.midiInstrument = #"tuba" %"
-            \transpose c d {\relative c' { \partial 4 \Eupho}}
+            \relative c { \partial 4 \Eupho}
           }
-         \layout {}
+         \midi {\tempo  4 = 120 }
     }
   }
   \bookpart{
@@ -120,9 +120,9 @@
         #(set-accidental-style 'modern)
         \set Staff.instrumentName = "Tuba"
         \set Staff.midiInstrument = #"tuba" %"
-        \transpose c d {{ \key des \major \relative c' \Bass}}
+        \key des \major \relative c, {\Bass}
       }
-      \layout {}
+        \midi {\tempo  4 = 120}
     }
   }
 }
