@@ -60,5 +60,8 @@ R1*6 |
 r8 <aes, ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des, aes'> |
 r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r f8. |
 
+\mark "I"
+<f f'>4 <f f'> <aes aes'> <bes bes'>8. <bes f' bes>16~ | <bes f bes'>2 r4 bes16 des8 c16~| 
+c8 bes2 f8 ees des16 <c ees>~ | <c ees>8 <c f>-> r2 r8 bes |
 
 }

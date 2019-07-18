@@ -26,10 +26,10 @@ c ees a\ff\! r4 |
 }
 
 NotesFBar = {
-bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c'2 f, |
-bes2 r4 aes | ges2. f4 | ees2 r4 des | c'2 f, |
-bes2 r4 \tuplet 3/2 4 {aes8 r ges->~} | ges2. f4 | ees2 r4 des | c'2 f, |	
-bes2 r4 aes | ges2. f4 | ees2 r4 des | c'2 f, |	
+bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
+bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |
+bes2 r4 \tuplet 3/2 4 {aes8 r ges->~} | ges2. f4 | ees2 r4 des | c2 f |	
+bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |	
 }
 
 SaxBar = 
@@ -43,8 +43,8 @@ SaxBar =
 \NotesBBar
 
 \mark "C"
-bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c'2 f, |
-bes2 r4 aes | ges2. f4 | ees2 r4 des | c'4 <f, bes> <aes des f>2 |
+bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
+bes2 r4 aes | ges2. f4 | ees2 r4 des | c4 <f bes> <aes des f>2 |
 
 \mark "D"
 f8(\mf bes, des-> ees f aes des,8. bes16~  | bes8) r ees-. r ees-. r ees-. r |
@@ -66,11 +66,18 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 
 \mark "H"
 R1*2
-\repeat unfold 2 {<bes, bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
+\repeat unfold 2 {<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
 <bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. | }
 
 <bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
 r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r8 |
+
+\mark "I"
+f4-. r4. aes8 aes'8.-> ges,16~ | ges16 ges ges'8 ges, ges' ges,4 f8. ees16~ | 
+ees16 ees bes'8 ees, ees' ees4 des8. c16~ |  c c c8 c f,16 f~ f8 f' f, f' | 
+\repeat unfold 3 {
+bes4 f bes aes8. ges16~ | ges16 ges bes8 bes, ges des4 f8. ees16~ | ees16 ees bes'8 ees, ees' ees4 des8. c16~ |  c c c8 c f,16 f~ f8 f' f, f' | }
+
 
 
 

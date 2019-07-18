@@ -83,4 +83,10 @@ r8 <bes ees> bes bes <f des'>16 <f ees'> r <f ees'> r8. <f bes>16 |
 <f des'>-> <f ees'> r <f ees'> r8. <f bes>16 <f des'>-> <f ees'> r <f f'> r <aes des>8. |
 r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des, aes'> |
 r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r f8. |
+
+\mark "I"
+r2 f'4( f8. ees16~ | ees des bes8) f'->( des ees8.-> des16~ des4) |
+r4 f16( des8 ees16~-> ees8 des4.) | r4 aes16( aes f8~ f des ees16 f8.) |
+r1 		| r4 f'8 des ees8. des16~ des4 | r4 f8 des ees8. des16~ des4 | 
+r4 aes16( aes f8~ f des ees16 f8.) |
   }

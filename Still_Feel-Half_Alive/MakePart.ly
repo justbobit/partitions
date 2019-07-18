@@ -38,9 +38,9 @@
          \set Staff.instrumentName = Clarinet
          \set Staff.midiInstrument = #"clarinet"
          \transpose c d {\relative c'' { \partial 4 \ClarOne}}
-       }
-   \layout {}
-  }
+      }
+      \layout {}
+    }
   }
   \bookpart{
     \score{
@@ -85,7 +85,7 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Tenor Sax"
             \set Staff.midiInstrument = #"tenor sax" %"
-            \transpose c d {{\clef "treble" \key des \major \partial 4 \TenorOne}}
+            \transpose c d {\relative c' {{\clef "treble" \key des \major \partial 4 \TenorOne}}}
           }
          \layout {}
     }  

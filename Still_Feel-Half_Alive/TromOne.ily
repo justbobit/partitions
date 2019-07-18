@@ -59,7 +59,7 @@ R1*4 |
 r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
 
 \mark "I"
-<f' f'>4 <f f'> <aes aes'> <bes des ges>8. <bes des ges>16~ | <bes des ges>2 r4 bes16 des8 c16~ |
+<f' f'>4-> <f f'> <aes aes'>-> <bes des f>8. <bes des ges bes>16~ | <bes des ges bes>2 r4 bes16 des8 c16~ |
 c8 bes4. r2 | r2. r8 bes8 f'4 f f
 
 }
