@@ -17,14 +17,11 @@ bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. | be
 }
 
 NotesIBass = {
-f'4-. r4. aes,8 aes'8.-> ges16~ | ges16 ges ges8 ges ges ges4 f8. ees16~ | 
-ees16 ees bes'8 ees, ees' ees4 des8. c16~ |  c c c8 c f,16 f~ f8 f' f, f' | 
-\repeat unfold 3 {
-bes,4 f' bes, aes8. ges16~ | ges16 ges bes8 bes ges des4 f8. ees16~ | ees16 ees bes'8 ees, ees' ees4 des8. c16~ |  c c c8 c f,16 f~ f8 f' f, f' | }
-
-
+\repeat unfold 4 {
+bes'4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
+ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
 }
-
+}
 
 Bass =  {
 
@@ -45,8 +42,10 @@ f,8 bes, des-> ees f aes f8. ees16~     | ees8  f-> ees16 des8 bes'16~ bes4 r4 	
 \NotesBBass
 
 \mark "C"
-bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
-bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |	
+bes4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
+ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
+bes4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
+ees4 r4. ees8 des4 | c8 c f c des ees  f aes |	
 
 \mark "D"
 f8(\mf bes, des-> ees f aes des,8. bes16~  | bes8) r ees-. r ees-. r ees-. r |

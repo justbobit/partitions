@@ -73,10 +73,11 @@ R1*2
 r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r8 |
 
 \mark "I"
-f4-. r4. aes8 aes'8.-> ges,16~ | ges16 ges ges'8 ges, ges' ges,4 f8. ees16~ | 
-ees16 ees bes'8 ees, ees' ees4 des8. c16~ |  c c c8 c f,16 f~ f8 f' f, f' | 
-\repeat unfold 3 {
-bes4 f bes aes8. ges16~ | ges16 ges bes8 bes, ges des4 f8. ees16~ | ees16 ees bes'8 ees, ees' ees4 des8. c16~ |  c c c8 c f,16 f~ f8 f' f, f' | }
+
+\repeat unfold 4 {
+f'4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
+ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
+}
 
 
 
