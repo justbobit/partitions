@@ -72,14 +72,16 @@ R1*2
 <bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
 r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r16 <bes des> r8 |
 
+\repeat volta 2 {
 \mark "I"
 
 \repeat unfold 4 {
 f'4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
 ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
 }
+bes1 \bar "|."
 
-
+}
 
 
 }

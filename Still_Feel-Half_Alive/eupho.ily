@@ -65,7 +65,12 @@ R1*2
 <bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
 r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
 
+\repeat volta 2 {
 \mark "I"
 \NotesIBass
+
+}
+f1 \bar "|."
+
 
 }

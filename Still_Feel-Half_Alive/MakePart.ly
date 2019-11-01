@@ -12,16 +12,24 @@
 % Start cut-&-pastable-section
 % ****************************************************************
 
+#(set! paper-alist (cons '("my size" . (cons (* 29.7 cm) (* 21 cm))) paper-alist))
+
+
 \paper {
-  #(set-default-paper-size "a4landscape")
+  #(set-paper-size "my size")
   ragged-bottom = ##t
   % For 3 page layout:
-  #(layout-set-staff-size 15)
-  bottom-margin =12
+  #(layout-set-staff-size 14)
+  top-margin    =6
+  bottom-margin =6
+  left-margin   =6
+  right-margin  =6
+  
   %annotate-spacing = ##t
   %{ %}
   between-system-padding = 0
   ragged-last-bottom = ##f
+  
 }
 
 \book
@@ -37,7 +45,10 @@
          #(set-accidental-style 'modern)
          \set Staff.instrumentName = Clarinet
          \set Staff.midiInstrument = #"clarinet"
-         \transpose c d {\relative c'' { \partial 4 \ClarOne}}
+         \transpose c d {\relative c'' {
+          \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
+          \set Score.markFormatter = #format-mark-box-alphabet
+          \partial 4 \ClarOne}}
       }
       \layout {}
     }
@@ -49,7 +60,10 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Trumpet"
             \set Staff.midiInstrument = #"trumpet"
-            \transpose c d{\relative c'' { \partial 4 \Trumpet}}
+            \transpose c d{\relative c'' { 
+          \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
+          \set Score.markFormatter = #format-mark-box-alphabet
+          \partial 4 \Trumpet}}
           }
      \layout {}
     }
@@ -61,7 +75,10 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Alto Sax"
             \set Staff.midiInstrument = #"alto sax" %"
-            \transpose ees c {\relative c' { \partial 4 \AltSaxOne}}
+            \transpose ees c {\relative c' { 
+          \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
+          \set Score.markFormatter = #format-mark-box-alphabet
+          \partial 4 \AltSaxOne}}
           }
      \layout {}
     }
@@ -73,7 +90,10 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Trombone"
             \set Staff.midiInstrument = #"trombone"
-            \relative c' {\clef "bass" \key des \major \partial 4 \TromOne}
+            \relative c' {\clef "bass" \key des \major
+          \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
+          \set Score.markFormatter = #format-mark-box-alphabet
+           \partial 4 \TromOne}
           }
          \layout {}
     }
@@ -85,7 +105,10 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Tenor Sax"
             \set Staff.midiInstrument = #"tenor sax" %"
-            \transpose c d {\relative c' {{\clef "treble" \key des \major \partial 4 \TenorOne}}}
+            \transpose c d {\relative c' {{\clef "treble" \key des \major 
+          \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
+          \set Score.markFormatter = #format-mark-box-alphabet
+          \partial 4 \TenorOne}}}
           }
          \layout {}
     }  
@@ -97,7 +120,10 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Sax Bar"
             \set Staff.midiInstrument = #"baritone sax" %"
-            \transpose ees c {\relative c' { \partial 4 \SaxBar}}
+            \transpose ees c {\relative c' { \partial 4 
+          \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
+          \set Score.markFormatter = #format-mark-box-alphabet
+           \SaxBar}}
           }
          \layout {}
     }
@@ -109,7 +135,10 @@
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Euphonium"
             \set Staff.midiInstrument = #"tuba" %"
-            \transpose c d {\relative c' { \partial 4 \Eupho}}
+            \transpose c d {\relative c' { \partial 4 
+          \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
+          \set Score.markFormatter = #format-mark-box-alphabet
+          \Eupho}}
           }
          \layout {}
     }

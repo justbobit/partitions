@@ -72,6 +72,10 @@ bes16 bes8 aes16 bes4-. r4 f'16 aes,8. | }
 bes4 bes-. r4 r8. aes16 | 
 r bes r bes r bes r bes r bes r bes r bes r8 |
 
+\repeat volta 2 {
 \mark "I"
 \NotesIBass
+}
+bes1  \bar "|."
+
 } 
