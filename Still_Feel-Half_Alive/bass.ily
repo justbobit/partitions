@@ -26,8 +26,8 @@ ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
 Bass =  {
 
 %Intro
-\partial 4 r4 | 
-bes1\mf  | ees1 | ges | f2. r4 |
+\partial 4 \xNote { f16 f f f } |  | 
+bes,1\mf  | ees1 | ges | f2. r4 |
 bes,1 | ees1 | ges | f2. r4 |
 bes,1 | ees1 | ges | f2. r4 |
 %--------------

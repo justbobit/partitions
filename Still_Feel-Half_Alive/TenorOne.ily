@@ -30,7 +30,7 @@ TenorOne =
 %  \clef alto
 %Intro
 
-r4 | 
+\xNote { f16 f f f } | 
 r4 <f aes des ees>2\mp <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
 \repeat unfold 4 {r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |}
 r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~  | <ees ges bes des>2 r4 <aes c ees f>4-> |
@@ -63,9 +63,9 @@ r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. | r8 f16( aes aes bes des ees) r2
 \NotesFTenor
 
 \mark "G"
-<bes des f>1_\markup{\italic {a defaut trombone}} |  <bes, des ges>1 | <bes des ges>1 | <bes des aes'>1 | 
-<bes des f>1 |  <bes des ges>1 | <bes des ges>1 | <bes des aes'>1 |
-<bes des f>1_\markup{ \italic {plus a defaut}} |  <bes des ges>1 | <bes des ges>1 | 
+<bes des f>1_\markup{\italic {a defaut trombone}} |  <bes, des ges>1 | <bes des g>1 | <bes des aes'>1 | 
+<bes des f>1 |  <bes des ges>1 | <bes des g>1 | <bes des aes'>1 |
+<bes des f>1_\markup{ \italic {plus a defaut}} |  <bes des ges>1 | <bes des g>1 | 
 <bes des aes'>4 <bes des aes'>4 <bes ees aes>4-> <bes ees a>4->
 
 \mark "H"

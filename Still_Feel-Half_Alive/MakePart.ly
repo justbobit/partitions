@@ -63,7 +63,7 @@
             \transpose c d{\relative c'' { 
           \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
           \set Score.markFormatter = #format-mark-box-alphabet
-          \partial 4 \Trumpet}}
+           \Trumpet}}
           }
      \layout {}
     }

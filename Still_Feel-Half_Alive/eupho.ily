@@ -2,8 +2,8 @@
 \include "SaxBar.ily"
 
 NotesAEuph={
-f16\mf f' f, f' | 
-bes,8-. r bes-. r bes-. r bes-. r | ees,-. r ees-. r ees-. r ees-. r | 
+\xNote { f16 f f f } | 
+bes8-. r bes-. r bes-. r bes-. r | ees,-. r ees-. r ees-. r ees-. r | 
 ges-. r ges-. r ges-. r ges-. r           | f-. r f-. r f-. r r4 |
 
 bes8-. r bes-. r bes-. r bes-. r  | ees,-. r ees-. r ees-. r ees-. r | 

@@ -8,7 +8,8 @@ Trumpet =
 {
 %Intro 
 
-\clef "treble" \key des \major r4   | R1*11 | r2 r4. bes16(\f c16 |
+\clef "treble" \key des \major \partial 4 \xNote { f,16 f f f } |    | R1*11 | r2
+r4. bes16(\f c16 |
 %--------------
 %A
 \mark "A"
@@ -78,7 +79,7 @@ c8 bes4. r8 f8\mf ees des16 <c ees>~ | <c ees>8 <c f>-> r2 r8 bes' |
 <bes ees>4 r8 <ges bes> <bes des>16 <bes ees> r <bes ees> r4 | <bes des>16 <bes ees> r <bes ees> r4  <a des>16 <c ees>8-. <c f>16 r16 <f a>8. |
 <f bes>4 r8 <c f> <ees aes>16 <f bes>8 <f bes>16 r4 |
 
-<ees aes>16-> <f bes>8-. <f bes>16-. f8 des <ees aes>16-> <f bes>8-. <aes c>16-. r16 <f aes des>8-> <des f bes>16->~ |
+<ees aes>16-> <f bes>8-. <f bes>16-. f8 des <ees aes>16-> <f bes>8-. <ees aes>16-. r16 <f aes>8-> <des f bes>16->~ |
 <des f bes>4 r8 r16 <des, f> <f aes>-> <f bes> r <f bes> r8 <f aes>16 <f bes>-> |  
 r16 <des f> r <f aes> r <ees aes> r <des f> r <aes des> r <des f> r <des f> aes' f | 
 }

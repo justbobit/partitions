@@ -1,10 +1,10 @@
 \include "AltSaxOne.ily"
 
 NotesBClar = {
-r1 				   		| f'16-> ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des 	|
+r1 				   		| f16-> ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des 	|
 r2 r4 r8 des16->( ees 	| ees ees ees ees~ ees des8 f16~ f8.) des16( ees8 des) 	|
 r1 					 	| f16-> ees8 des16~ des16 ees8-> ees16-> r8 des ees des |
-\tuplet 3/2 4 { <ees, ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees ees,>4 <des des,>8 <ees ees,>4 <des des,>8} | 
+\tuplet 3/2 4 { <ees ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees ees,>4 <des des,>8 <ees ees,>4 <des des,>8} | 
 \tuplet 3/2 4 { <ees ees,>4 <f f,>8  <ees ees,>4 <des des,>8} <bes bes,>4\!\ff <aes aes,> | 
 
 }
@@ -13,11 +13,12 @@ ClarOne =
 {
 %Intro 
 
-\clef "treble" \key des \major r4 | 
+\clef "treble" \key des \major \partial 4 \xNote { f,16 f f f } | 
 R1*5  |  r4 << { r8. aes' ~ aes4 }         \\ { ees4.\mf ~ <<ees4 f4>>} >> r8| 
 r1    |  r4 << { r8. aes ~ <bes aes>4-> } \\ { f4.~ f4} >> r8    	         | 
 r1    |  r4 << { r8. aes ~ aes4 }          \\ { ees4.~ <<ees4 f4>>} >> r8	 | 
-r1    |  r2. <aes c ees f>8-> bes16( c16 								 	 |
+r1    |  r2. <ees f aes c >8-> bes'16( c16 								
+	|
 
 %--------------
 %A
@@ -49,7 +50,7 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 
 
 \mark "E"
-\relative c' {\NotesBClar}
+\relative c'' {\NotesBClar}
 
 \mark "F"
 \NotesFAltSax
