@@ -1,4 +1,4 @@
-\include "lilypond-book-preamble.ly"
+\version "2.18.2"
 \include "TromOne.ily"
 \include "ClarOne.ily"
 \include "Trumpet.ily"
@@ -19,7 +19,7 @@
   #(set-paper-size "my size")
   ragged-bottom = ##t
   % For 3 page layout:
-  #(layout-set-staff-size 12)
+  #(layout-set-staff-size 11)
   top-margin    =6
   bottom-margin =6
   left-margin   =6
@@ -36,6 +36,7 @@
     \header
     {
       title = "Still Feel - Half Alive"
+      composer = "Josh Taylor - Arrgt. Bobby V2"
     }
   \score
   {

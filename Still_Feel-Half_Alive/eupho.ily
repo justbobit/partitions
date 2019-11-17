@@ -2,8 +2,8 @@
 \include "SaxBar.ily"
 
 NotesAEuph={
-\xNote { f16 f f f } | 
-bes8-. r bes-. r bes-. r bes-. r | ees,-. r ees-. r ees-. r ees-. r | 
+\xNote { f16_\markup{\italic batterie} f f f } | 
+bes8-.\mf r bes-. r bes-. r bes-. r | ees,-. r ees-. r ees-. r ees-. r | 
 ges-. r ges-. r ges-. r ges-. r           | f-. r f-. r f-. r r4 |
 
 bes8-. r bes-. r bes-. r bes-. r  | ees,-. r ees-. r ees-. r ees-. r | 
@@ -13,17 +13,17 @@ bes'8-.\mf r bes-. r bes-. r bes-. r | ees,-. r ees-. r ees-. r ees-. r |
 ges-. r ges-. r ges-. r ges-. r           | f8-. r8 r2 <c f>4->				 |
 %A
 \mark "A"
-f8(\mf bes, des-> ees f aes des,8. bes16~  | bes8) r bes-. r bes-. r bes-. r |
+f8( bes, des-> ees f aes des,8. bes16~  | bes8) r bes-. r bes-. r bes-. r |
 f'8( bes, des-> ees f aes f8. aes16~     | aes4  f8-.) r f <<f c'>> <<f, c'>> ees,16 e |
 f8( bes, des-> ees f aes f'8. ees16~      | ees4  ees8-.) r16 ges,16 bes8-. des-. des4-> |
 f,8( bes, des-> ees f aes f8. ees16~     | ees8)  f->( ees16 des8 bes'16~ bes4) r4 	|
 }
 
 NotesBEuph = {
-<ges bes des>1 | <f bes des>2 <f a c>2 | <f bes des>2. <f bes des>4 | <ges bes ees>1 |
-<ges bes des>1 | <f bes des>2 <f a c>2 | 
-<f bes des>4\mf\< <g c ees> <aes des f> <bes ees ges> |
-<aes c f> <bes ees g> <c a'>\ff\! r4 |
+<bes des>4 <bes des> <bes des> <bes des> | <bes des> <bes des>  <a c> <a c>| 
+<bes des>  <bes des> <bes des> <bes des> | <bes ees>  <bes ees> <bes ees>4 <bes ees>16 <a c>8.|
+<bes des>4 <bes des>4 <bes des>4 <bes des>4 | <bes des>4 <bes des>4 <a c>4 <a c>4| 
+<f bes>4\mf\< <g c> <aes des> <bes ees> | <aes c> <bes ees> <a c>\ff\! r4 |
 }
 
 Eupho = 
@@ -36,8 +36,10 @@ Eupho =
 \NotesBEuph
 
 \mark "C"
-bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
-bes2 r4 aes | ges2. f4 | ees2 r4 des | c4 <f bes> <aes des f>2 |
+bes4-.\fff r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
+ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
+bes4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
+ees4 r4. ees8 des4 | c8 c f c des ees  f aes |	
 
 \mark "D"
 f8(\mf bes, des-> ees f aes des,8. bes16~  | bes8) r ees-. r ees-. r ees-. r |
@@ -58,16 +60,14 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 \NotesGBass
 
 \mark "H"
-R1*2
-\repeat unfold 2 {<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
-<bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. | }
+R1*2 \repeat unfold 2 {bes4 bes-. r4 r8. aes16 | 
+bes16 bes8 aes16 bes4-. r4 f'16 aes,8. | }
 
-<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
-r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
+bes4 bes-. r4 r8. aes16 | \repeat unfold 8 {<bes' des> r}|
 
 \repeat volta 2 {
 \mark "I"
-\NotesIBass
+\relative c' {\NotesIBass}
 
 }
 f1 \bar "|."

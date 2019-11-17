@@ -1,6 +1,6 @@
 NotesBBass = {
-ges4->\mf ges->  ges-> ges-> | <f bes,> <f bes,> <a f> <a f>-> | <f bes> <f bes> <f bes> f | ees ees ees ees16 f8. |
-ges4->\mf ges->  ges-> ges-> | f f a a-> | bes,\<\mf c des ees | f ges a\!\ff r |
+ges4-> ges->  ges-> ges-> | <f bes,> <f bes,> <a f> <a f>-> | <f bes> <f bes> <f bes> f | ees ees ees ees16 f8. |
+ges4-> ges->  ges-> ges-> | f f a a-> | bes,\< c des ees | f ges a\!\ff r |
 }
 
 NotesFBass = {
@@ -26,7 +26,7 @@ ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
 Bass =  {
 
 %Intro
-\partial 4 \xNote { f16 f f f } |  | 
+\partial 4 \xNote { f16_\markup{\italic batterie} f f f } |  | 
 bes,1\mf  | ees1 | ges | f2. r4 |
 bes,1 | ees1 | ges | f2. r4 |
 bes,1 | ees1 | ges | f2. r4 |
@@ -42,7 +42,7 @@ f,8 bes, des-> ees f aes f8. ees16~     | ees8  f-> ees16 des8 bes'16~ bes4 r4 	
 \NotesBBass
 
 \mark "C"
-bes4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
+bes4-.\fff r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
 ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
 bes4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
 ees4 r4. ees8 des4 | c8 c f c des ees  f aes |	
@@ -70,7 +70,7 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 bes16 bes8 aes16 bes4-. r4 f'16 aes,8. | }
 
 bes4 bes-. r4 r8. aes16 | 
-r bes r bes r bes r bes r bes r bes r bes r8 |
+\repeat unfold 8 {bes r} |
 
 \repeat volta 2 {
 \mark "I"

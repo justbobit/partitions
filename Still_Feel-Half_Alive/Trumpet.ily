@@ -8,7 +8,7 @@ Trumpet =
 {
 %Intro 
 
-\clef "treble" \key des \major \partial 4 \xNote { f,16 f f f } |    | R1*11 | r2
+\clef "treble" \key des \major \partial 4 \xNote { f,16_\markup{\italic batterie} f f f } |    | R1*11 | r2
 r4. bes16(\f c16 |
 %--------------
 %A
@@ -62,7 +62,7 @@ bes8.->\mf des16~ des bes8 \grace ees8 f16->~ f8 ees~ ees4 | r1 |
 \mark "H"
 R1*6 |
 r8 <aes, ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des, aes'> |
-r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r f8. |
+\repeat unfold 8 {<des aes'> r}  |
 
 \repeat volta 2 {
 %refrain
@@ -81,7 +81,7 @@ c8 bes4. r8 f8\mf ees des16 <c ees>~ | <c ees>8 <c f>-> r2 r8 bes' |
 
 <ees aes>16-> <f bes>8-. <f bes>16-. f8 des <ees aes>16-> <f bes>8-. <ees aes>16-. r16 <f aes>8-> <des f bes>16->~ |
 <des f bes>4 r8 r16 <des, f> <f aes>-> <f bes> r <f bes> r8 <f aes>16 <f bes>-> |  
-r16 <des f> r <f aes> r <ees aes> r <des f> r <aes des> r <des f> r <des f> aes' f | 
+ <des f>16 r <f aes> r <ees aes> r <des f> r <aes des> r <des f> r <des f> aes' f r| 
 }
 <bes des f bes>1  \bar "|."
 

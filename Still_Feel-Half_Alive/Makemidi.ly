@@ -1,4 +1,5 @@
-\include "lilypond-book-preamble.ly"
+\version "2.18.2"
+\include "articulate.ly"
 \include "TromOne.ily"
 \include "ClarOne.ily"
 \include "Trumpet.ily"
@@ -33,17 +34,22 @@
   \bookpart{
   \score
   {
+    \unfoldRepeats
+    \articulate <<
     \new Staff {
          #(set-accidental-style 'modern)
          \set Staff.instrumentName = Clarinet
          \set Staff.midiInstrument = #"clarinet"
          \relative c'' { \partial 4 \ClarOne}
        }
+   >>
    \midi { \tempo  4 = 120}
   }
   }
   \bookpart{
     \score{
+          \unfoldRepeats
+    \articulate <<
           \new Staff
           {
             #(set-accidental-style 'modern)
@@ -51,11 +57,14 @@
             \set Staff.midiInstrument = #"trumpet"
             \relative c'' { \partial 4 \Trumpet}
           }
+    >>
      \midi {\tempo  4 = 120 }
     }
   }
   \bookpart{
     \score{
+          \unfoldRepeats
+    \articulate <<
           \new Staff
           {
             #(set-accidental-style 'modern)
@@ -63,11 +72,14 @@
             \set Staff.midiInstrument = #"alto sax" %"
             \relative c' { \partial 4 \AltSaxOne}
           }
+    >>
      \midi { \tempo  4 = 120}
     }
   }
   \bookpart{
     \score{
+          \unfoldRepeats
+    \articulate <<
           \new Staff
           {
             #(set-accidental-style 'modern)
@@ -75,11 +87,14 @@
             \set Staff.midiInstrument = #"trombone"
             \relative c' {\clef "bass" \key des \major \partial 4 \TromOne}
           }
+        >>
          \midi {\tempo  4 = 120 }
     }
   }
   \bookpart{
     \score{
+          \unfoldRepeats
+    \articulate <<
           \new Staff
           {
             #(set-accidental-style 'modern)
@@ -87,11 +102,14 @@
             \set Staff.midiInstrument = #"tenor sax" %"
             \relative c {\clef "treble" \key des \major \partial 4 \TenorOne}
           }
+        >>
          \midi {\tempo  4 = 120 }
     }  
   }
   \bookpart{
     \score{
+          \unfoldRepeats
+    \articulate <<
           \new Staff
           {
             #(set-accidental-style 'modern)
@@ -99,11 +117,14 @@
             \set Staff.midiInstrument = #"baritone sax" %"
             \relative c, { \partial 4 \SaxBar}
           }
+          >>
          \midi {\tempo  4 = 120 }
     }
   }
   \bookpart{
     \score{
+          \unfoldRepeats
+    \articulate <<
           \new Staff
           {
             #(set-accidental-style 'modern)
@@ -111,17 +132,21 @@
             \set Staff.midiInstrument = #"tuba" %"
             \relative c { \partial 4 \Eupho}
           }
+          >>
          \midi {\tempo  4 = 120 }
     }
   }
   \bookpart{
     \score{
+          \unfoldRepeats
+    \articulate <<
       \new Staff{
         #(set-accidental-style 'modern)
         \set Staff.instrumentName = "Tuba"
         \set Staff.midiInstrument = #"tuba" %"
         \key des \major \relative c, {\Bass}
       }
+      >>
         \midi {\tempo  4 = 120}
     }
   }

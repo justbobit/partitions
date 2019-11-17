@@ -12,17 +12,17 @@ NotesBTrom = {
 TromOne =
 {
 %Intro
-\xNote { f,16 f f f } | 
-r4 <f aes des ees>2\mp <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
-\repeat unfold 4 {r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |}
-r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~  | <ees ges bes des>2 r4 <aes c ees f>4-> |
+\xNote { f,16_\markup{\italic batterie} f f f } | 
+r4 <aes des ees>2\mp <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
+\repeat unfold 4 {r4 <aes des ees>2 <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |}
+r4 <aes des ees>2 <aes des ees>8. <ges bes des>16~ | <ges bes des>2 r4 <aes c ees f>4-> |
 %--------------
 %A
   \mark "A"
-r4 <f aes des ees>2\mf  <f aes des ees>8. <ges bes des>16~  | <ges bes des>1 |
-r4 <f aes des ees>2  <f aes des ees>8. <ges bes des>16~     | <ges bes des>1 |
-r4 <f aes des ees>2  <f aes des ees>8. <ges bes des>16~  | <ges bes des>4. r16 ges16\f bes8-. des-. des4-> |
-r4 <f, aes des ees>2  <f aes des ees>8. <ges bes des>16~  | <ges bes des>4 r2. |
+r4 <aes des ees>2\mp <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
+r4 <aes des ees>2 <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
+r4 <aes des ees>2  <aes des ees>8. <ges bes des>16~  | <ges bes des>4. r16 ges16\f bes8-. des-. des4-> |
+r4 <aes des ees>2  <aes des ees>8. <ges bes des>16~  | <ges bes des>4 r2. |
 
 \mark "B"
 \NotesBTrom
@@ -31,12 +31,11 @@ r4 <f, aes des ees>2  <f aes des ees>8. <ges bes des>16~  | <ges bes des>4 r2. |
 \NotesCTenor
 
 \mark "D"
-r4 <f aes des ees>2\mp <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
-r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>1 |
-\repeat unfold 3 {
-	r4 <f aes des ees>2 <f aes des ees>8. <ees ges bes des>16~  | <ees ges bes des>1 |
+r4 <aes des ees>2\mp <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
+\repeat unfold 4 {
+r4 <aes des ees>2 <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
 }
-r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>2 r2 |
+r4 <aes des ees>2  <aes des ees>8. <ges bes des>16~ | <ges bes des>2 r2 |
 
 \mark "E"
 \relative c' \NotesBTrom
@@ -45,7 +44,7 @@ r4 <f aes des ees>2  <f aes des ees>8. <ees ges bes des>16~ | <ees ges bes des>2
 \relative c {\NotesFTenor}
 
 \mark "G"
-<bes des f>1\mp |  <bes des ges>1 | <bes des g>1 | <bes des aes'>1 | 
+<bes, des f>1\mp |  <bes des ges>1 | <bes des g>1 | <bes des aes'>1 | 
 <bes des f>1	  |  <bes des ges>1 | <bes des g>1 | <bes des aes'>1 |
 <bes des f>1 		|  <bes des ges>1 | <bes des g>1\< | 
 <bes des aes'>4 <bes des aes'>4 <bes ees aes>4-> <bes ees a>4->\!\f |
@@ -55,8 +54,7 @@ R1*4 |
 <bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
 <bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. |
 
-<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
-r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r16 <bes bes' des> r8 |
+<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | \repeat unfold 8 {<bes bes' des> r } |
 
 \repeat volta 2 {
 %refrain
@@ -75,7 +73,7 @@ c8 bes4. r8 f8\mf ees des16 <c ees>~ | <c ees>8 <c f>-> r2 r8 bes' |
 
 <ees aes>16-> <f bes>8-. <f bes>16-. f8 des <ees aes>16-> <f bes>8-. <ees aes>16-. r16 <f aes>8-> <des f bes>16->~ |
 <des f bes>4 r8 r16 <des, f> <f aes>-> <f bes> r <f bes> r8 <f aes>16 <f bes>-> |  
-r16 <des f> r <f aes> r <ees aes> r <des f> r <aes des> r <des f> r <des f> aes' f | 
+<des f>16 r <f aes> r <ees aes> r <des f> r <aes des> r <des f> r <des f> aes' f r | 
 }
 <bes des f bes>1 \bar "|."
 

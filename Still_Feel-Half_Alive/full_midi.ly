@@ -1,4 +1,5 @@
-\include "lilypond-book-preamble.ly"
+\version "2.18.2"
+\include "articulate.ly"
 \include "TromOne.ily"
 \include "ClarOne.ily"
 \include "Trumpet.ily"
@@ -32,6 +33,9 @@
     }
   \score
   {
+    \unfoldRepeats
+    \articulate
+    <<
     \context StaffGroup {
       <<
         \new Staff {
@@ -84,6 +88,7 @@
         }
       >>
     }
+    >>
     % \layout { }
     \midi { \tempo 4=120}
   }

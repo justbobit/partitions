@@ -13,7 +13,7 @@ ClarOne =
 {
 %Intro 
 
-\clef "treble" \key des \major \partial 4 \xNote { f,16 f f f } | 
+\clef "treble" \key des \major \partial 4 \xNote { f,16_\markup{\italic batterie} f f f } | 
 R1*5  |  r4 << { r8. aes' ~ aes4 }         \\ { ees4.\mf ~ <<ees4 f4>>} >> r8| 
 r1    |  r4 << { r8. aes ~ <bes aes>4-> } \\ { f4.~ f4} >> r8    	         | 
 r1    |  r4 << { r8. aes ~ aes4 }          \\ { ees4.~ <<ees4 f4>>} >> r8	 | 
@@ -65,7 +65,7 @@ R1*4 |
 r8 <bes, ees> bes bes <f des'>16 <f ees'> r <f ees'> r8. <f bes>16 |
 <f des'>-> <f ees'> r <f ees'> r8. <f bes>16 <f des'>-> <f ees'> r <f f'> r <aes des>8. |
 r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des, aes'> |
-r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r f8. |
+\repeat unfold 8 {<des aes'> r} |
 
 \repeat volta 2 {
 \mark "I"

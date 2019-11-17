@@ -1,4 +1,4 @@
-\include "lilypond-book-preamble.ly"
+\version "2.18.2"
 \include "TromOne.ily"
 \include "ClarOne.ily"
 \include "Trumpet.ily"
@@ -37,6 +37,7 @@
 \header
     {
       title = "Still Feel - Half Alive"
+      composer = "Josh Taylor - Arrgt. Bobby V2"
     }
   \bookpart{
   \score
