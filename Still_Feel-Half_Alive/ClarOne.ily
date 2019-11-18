@@ -70,12 +70,12 @@ r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes be
 \repeat volta 2 {
 \mark "I"
 r2 f'4( f8. ees16~ | ees des bes8) f'->( des ees8.-> des16~ des4) |
-r4 f16( des8 ees16~-> ees8 des4.) | r4 aes8(  f8~ f des ees16 f8.) |
-r1 		| r4 f'8 des ees8. des16~ des4 | r4 f8 des ees8. des16~ des4 | 
-r4 aes8( f8~ f des ees16 f8.) |
+r4 f16( des8 ees16~-> ees8 des4.) | r4 aes'8(  f8~ f des ees16 f8.) |
+r1 		| r4 f8 des ees8. des16~ des4 | r4 f8 des ees8. des16~ des4 | 
+r4 aes'8( f8~ f des ees16 f8.) |
 
 \mark "J"
- f'4(\f  f f f8. ees16~ | ees des bes8~  bes2) bes'16-> des8 c16->~ |
+ f4(\f  f f f8. ees16~ | ees des bes8~  bes2) bes'16-> des8 c16->~ |
 c8 bes4. r8 f8\mf ees des16 <c ees>~ | <c ees>8 <c f>-> r2 r8 bes |
 f'4(\f  f f f8. ees16~ | ees des bes8~  bes2) bes'16-> des8 c16->~ |
  c8 bes4. r8 f\mf ees des16 <c ees>~ | <c ees>8 <c f>-> r2. |

@@ -78,9 +78,9 @@ r2. bes16 des8 ees16~ | ees2 <c f> |
 
 
 \mark "H"
-r8 ees-> bes bes des16 ees r ees r8. bes16 | des ees r ees r8. bes16 des ees r f r des8. |
+r8 ees->\mf bes bes des16 ees r ees r8. bes16 | des ees r ees r8. bes16 des ees r f r des8. |
 r8 ees4 bes16 bes des ees r ees r8 bes16 des | des r ees r bes r des r ees r f r des r f r  |
-r8 <bes ees> bes bes <f des'>16 <f ees'> r <f ees'> r8. <f bes>16 |
+r8 <bes, ees> bes bes <f des'>16 <f ees'> r <f ees'> r8. <f bes>16 |
 <f des'>-> <f ees'> r <f ees'> r8. <f bes>16 <f des'>-> <f ees'> r <f f'> r <aes des>8. |
 r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des aes'> |
 <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r  <des aes'> r <des aes'> r|

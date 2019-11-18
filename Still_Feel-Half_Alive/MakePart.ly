@@ -20,10 +20,10 @@
   ragged-bottom = ##t
   % For 3 page layout:
   #(layout-set-staff-size 14)
-  top-margin    =6
-  bottom-margin =6
-  left-margin   =6
-  right-margin  =6
+  top-margin    =5
+  bottom-margin =5
+  left-margin   =10
+  right-margin  =10
   
   %annotate-spacing = ##t
   %{ %}
