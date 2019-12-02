@@ -60,11 +60,11 @@ r4 <aes des ees>2  <aes des ees>8. <ges bes des>16~ | <ges bes des>2 r2 |
 <bes des aes'>4 <bes des aes'>4 <bes ees aes>4-> <bes ees a>4->\!\f |
 
 \mark "H"
-r8 ees->\mf bes bes des16 ees r ees r8. bes16 | des ees r ees r8. bes16 des ees r f r des8. |
+r8 ees'->\mf bes bes des16 ees r ees r8. bes16 | des ees r ees r8. bes16 des ees r f r des8. |
 r8 ees4 bes16 bes des ees r ees r8 bes16 des | des r ees r bes r des r ees r f r des r f r  |
 r8 <bes, ees> bes bes <f des'>16 <f ees'> r <f ees'> r8. <f bes>16 |
 <f des'>-> <f ees'> r <f ees'> r8. <f bes>16 <f des'>-> <f ees'> r <f f'> r <aes des>8. |
-r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des aes'> |
+r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes, bes <des aes'> |
 <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r  <des aes'> r <des aes'> r|
 
 \repeat volta 2 {
@@ -77,13 +77,13 @@ c8 bes4. r8 f8\mf ees des16 <c ees>~ | <c ees>8 <c f>-> r2 r8 bes' |
 
 %refrain final
 \mark "J"
-<bes' ees>4->_\markup {\italic {éclatant et sec}} r8 <f bes>8 <aes des>16-> <bes ees>8-. <bes ees>16-. r4 |
-<aes des>16-> <bes ees>8-. <bes ees>16-. f'8 des <aes des>16-> <bes ees>8-. <des f>16-. <des f>8. <bes ees>16~ |
-<bes ees>4 r8 <ges bes> <bes des>16 <bes ees> r <bes ees> r4 | <bes des>16 <bes ees> r <bes ees> r4  <a des>16 <c ees>8-. <c f>16 r16 <f a>8. |
+<bes' ees>4->\f r8 <f bes>8 <aes des>16-> <bes ees>8-. <bes ees>16-. r4 |
+<aes des>16-> <bes ees>8-. <bes ees>16-. r4 <aes des>16-> <bes ees>8-. <des f>16~ <des f>8 <bes ees>8~ |
+<bes ees>4 r8 <ges bes> <bes des>16 <bes ees>8 <bes ees>16 r4 | <bes des>16 <bes ees>8-. <bes ees>16 r4  <a des>16 <c ees>8-. <c f>16-. r8 <f a>8 |
 <f bes>4 r8 <c f> <ees aes>16 <f bes>8 <f bes>16 r4 |
 
-<ees aes>16-> <f bes>8-. <f bes>16-. f8 des <ees aes>16-> <f bes>8-. <ees aes>16-. r16 <f aes>8-> <des f bes>16->~ |
-<des f bes>4 r8 r16 <des, f> <f aes>-> <f bes> r <f bes> r8 <f aes>16 <f bes>-> |  
+<ees aes>16-> <f bes>8-. <f bes>16-. r4 <ees aes>16-> <f bes>8-. <ees aes>16-.  r8 <des f bes>8->~ |
+<des f bes>4 r8 r16 <des, f> <f aes>-> <f bes>8 <f bes>16 r8 <f aes>16 <f bes>-> |  
 <des f>16 r <f aes> r <ees aes> r <des f> r <aes des> r <des f> r <des f> aes' f r | 
 }
 <bes des f bes>1 \bar "|."

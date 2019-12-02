@@ -68,8 +68,15 @@
         \new Staff
         {
           #(set-accidental-style 'modern)
+          \set Staff.instrumentName = "Tenor Sax"
+          \set Staff.midiInstrument = #"tenor sax" %"
+          \relative c {\clef "treble" \key des \major \TenorOne}
+        }
+        \new Staff
+        {
+          #(set-accidental-style 'modern)
           \set Staff.instrumentName = "euphonium"
-          \set Staff.midiInstrument = #"tuba" %"
+          \set Staff.midiInstrument = #"tuba"
           \relative c { \partial 4 \Eupho}
         }
         \new Staff

@@ -10,13 +10,13 @@ NotesBAltSax= {
 
 
 NotesFAltSax = {
-r8 f,-.\mf bes-. f-. r f-. bes-. f-. | r f8-. bes-. f-. r f-. bes-. f-. | 
+r8 f-.\mf bes-. f-. r f-. bes-. f-. | r f8-. bes-. f-. r f-. bes-. f-. | 
 r f8-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. a-. f-. a-. f-. |
 
 r8 f-. bes-. f-. r f-. bes-. f-. | r f8-. bes-. f-. r f-. bes-. f-. | 
 r f8-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. a-. f-. a-. f-. |
 
-<des f bes>2-> r4 \tuplet 3/2 {r4 <des ges bes>8->~} | <des ges bes>4 f' 
+<des f bes>2-> r4 \tuplet 3/2 {r4 <des ges bes>8->~} | <des ges bes>4 f
 %voix 1
 <<{ r4 f~ 	| f f2 f4~  | f f2 f4~ 		
 | f f2 f4~ 	| f f2 f4~ 	| f f2 f4~ 	| f f2 f4~ 		} 
@@ -40,7 +40,7 @@ r4 <aes des ees>2 <aes des ees>8. <ges bes des>16~ | <ges bes des>2 r4 <aes c ee
   \mark "A"
 r4 <aes des ees>2\mp <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
 r4 <aes des ees>2 <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
-r4 <aes des ees>2  <aes des ees>8. <ges bes des>16~  | <ges bes des>4. r16 ges16\f bes8-. des-. des4-> |
+r4 <aes des ees>2  <aes des ees>8. <ges bes des>16~  | <ges bes des>1  |
 r4 <aes des ees>2  <aes des ees>8. <ges bes des>16~  | <ges bes des>4 r2. |
 %--------------
 %A
@@ -56,7 +56,7 @@ r8 f-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. r f-. bes-. f-. |
 r f-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. r2 |
 \mark "D"
 r8 aes-.\mf aes-. aes-. aes4-. aes8.-. bes16-. 		| r8 ees,16( f aes8. bes16-.) r2 |
-r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. 		| r8 f16( aes aes bes des ees) r8 f,(\f bes16 c8 des16~ |
+r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. 		| r8 f,16( aes aes bes des ees) r8 f,(\f bes16 c8 des16~ |
 des8.-> c16~ c8 bes~ bes16 aes8. f4) 				| r4  << { r8. aes ~ aes4 } \\ { ees4.~\mf <<ees4 f4>>} >> bes16( c | 
 des8. c16 bes16 aes8 aes16~ aes4 ) r4 				| r4    << { r8. aes ~ <bes aes>4-> } \\ { f4.~\mf f4} >> r8 | 
 des'8. c16 bes8.-> aes16~ aes8 f~ f4 				| r1 			|
@@ -67,7 +67,7 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 \relative c'' {\NotesBAltSax}
 
 \mark "F"
-\NotesFAltSax
+\relative c'' \NotesFAltSax
 
 \mark "G"
 R1*5 |

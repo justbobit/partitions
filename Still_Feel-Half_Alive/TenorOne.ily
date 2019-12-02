@@ -1,5 +1,5 @@
 NotesBTenor = {
-	r1 				   | f16-> ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des |
+	r1 				   | f'16-> ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des |
 r2 r4. des16->( ees | ees ees ees ees~ ees des8 f16~ f8.) des16( ees8 des) |
 r1 					 | f16-> ees8 des16~ des16 ees8-> ees16-> r8 des ees des |
 \tuplet 3/2 4 { <ees, ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees
@@ -33,19 +33,18 @@ TenorOne =
 
 \xNote { f16_\markup{\italic batterie} f f f } | 
 r4 <f aes des>2\mp <f aes des>8. <ees ges bes>16~ | <ees ges bes>1 |
-\repeat unfold 4 {r4 <f aes des>2\mp <f aes des>8. <ees ges bes>16~ | <ees ges bes>1 |}
-r4 <f aes des>2\mp <f aes des>8. <ees ges bes>16~ | <ees ges bes>2 r4 <aes c ees>4-> |
+\repeat unfold 4 {r4 <f aes des>2 <f aes des>8. <ees ges bes>16~ | <ees ges bes>1 |}
+r4 <f aes des>2 <f aes des>8. <ees ges bes>16~ | <ees ges bes>2 r4 <aes c ees>4-> |
 
 %A
 \mark "A"
-r4 <f aes des>2\mp <f aes des>8. <ees ges bes>16~ | <ees ges bes>4  << { r8. aes ~ aes4 } \\ { ees4.~_\markup{\italic chantez} <<ees4 f4>>} >> r8 | 
-r4 <f aes des>2\mp <f aes des>8. <ees ges bes>16~ | <ees ges bes>4 << { r8. aes ~ <bes aes>4.-> } \\ { f4.~ f4.} >> |
-r4 <f aes des>2\mp <f aes des>8. <ees ges bes>16~ | <ees ges bes>4. r16 ges16 bes8-. des-. des4-> |
-r4 <f aes des>2\mp <f aes des>8. <ees ges bes>16~ | <ees ges bes>4 << { r8. aes ~ aes4. } \\ { ees4.~\mf <<ees4 f4.>>} >> |
+r4 <f aes des>2\mp <f aes des>8. <ees ges bes>16~ | <ees ges bes>4  << { r8. aes ~ aes4 } \\ { ees4.~_\markup{\italic {far a-way}} <<ees4 f4>>} >> r8 | 
+r4 <f aes des>2 <f aes des>8. <ees ges bes>16~ | <ees ges bes>4 << { r8. aes ~ <bes aes>4.-> } \\ { f4.~_\markup{\italic {out of space}} f4.} >> |
+r4 <f aes des>2 <f aes des>8. <ees ges bes>16~ | <ees ges bes>4 << { r8. aes ~ aes4. } \\ { ees4.~_\markup{\italic {can't e-scape}} <<ees4 f4.>>} >> |
+r4 <f aes des>2 <f aes des>8. <ees ges bes>16~ | <ees ges bes>8 f(-> ees16 des8 bes'16~ bes4) r4 |
 
 \mark "B"
 \NotesBTenor
-
 
 \mark "C"
 \NotesCTenor
@@ -58,7 +57,7 @@ r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. | r8 f16( aes aes bes des ees) r2
 }
 
 \mark "E"
-\relative c'' \NotesBTenor
+\NotesBTenor
 
 \mark "F"
 \NotesFTenor
