@@ -19,7 +19,7 @@
   #(set-paper-size "my size")
   ragged-bottom = ##t
   % For 3 page layout:
-  #(layout-set-staff-size 14)
+  #(layout-set-staff-size 13)
   top-margin    =5
   bottom-margin =5
   left-margin   =10

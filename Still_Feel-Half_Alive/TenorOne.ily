@@ -2,7 +2,8 @@ NotesBTenor = {
 	r1 				   | f16-> ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des |
 r2 r4. des16->( ees | ees ees ees ees~ ees des8 f16~ f8.) des16( ees8 des) |
 r1 					 | f16-> ees8 des16~ des16 ees8-> ees16-> r8 des ees des |
-\tuplet 3/2 4 { <ees ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees ees,>4 <des des,>8 <ees ees,>4 <des des,>8} | 
+\tuplet 3/2 4 { <ees, ees'>4\<\mf <des des'>8  <ees' ees,>4 <des des,>8 <ees
+ees,>4 <des des,>8 <ees ees,>4 <des des,>8} | 
 \tuplet 3/2 4 { <ees ees,>4 <f f,>8  <ees ees,>4 <des des,>8} <bes bes,>4\!\ff <aes aes,> | 
 }
 
@@ -57,7 +58,7 @@ r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. | r8 f16( aes aes bes des ees) r2
 }
 
 \mark "E"
-\NotesBTenor
+\relative c'' \NotesBTenor
 
 \mark "F"
 \NotesFTenor
@@ -70,13 +71,16 @@ des g>1 | <bes des aes'>1 |
 <bes des aes'>4 <bes des aes'>4 <bes ees aes>4-> <bes ees a>4->
 
 \mark "H"
-R1*6 |
-r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des, aes'> |
-<des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r16 <des aes'> r |
+r8 ees'->\mf bes bes des16 ees r ees r8. bes16 | des ees r ees r8. bes16 des ees r f r des8. |
+r8 ees4 bes16 bes des ees r ees r8 bes16 des | des r ees r bes r des r ees r f r des r f r  |
+r8 <bes, ees> bes bes <f des'>16 <f ees'> r <f ees'> r8. <f bes>16 |
+<f des'>-> <f ees'> r <f ees'> r8. <f bes>16 <f des'>-> <f ees'> r <f f'> r <aes des>8. |
+r8 <aes ees'>4 <ees bes'>16 <ees bes'> <aes des> <aes ees'> r <aes ees> r bes bes <des aes'> |
+<des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r <des aes'> r  <des aes'> r <des aes'> r|
 
 \repeat volta 2 {
 \mark "I"
-r2 f'4( f8. ees16~ | ees des bes8) f'->( des ees8.-> des16~ des4) |
+r2 f4( f8. ees16~ | ees des bes8) f'->( des ees8.-> des16~ des4) |
 r4 f16( des8 ees16~-> ees8 des4.) | r4 aes8(  f8~ f des ees16 f8.) |
 r1 		| r4 f'8 des ees8. des16~ des4 | r4 f8 des ees8. des16~ des4 | 
 r4 aes8( f8~ f des ees16 f8.) |
