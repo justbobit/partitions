@@ -16,7 +16,7 @@ r f8-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. a-. f-. a-. f-. |
 r8 f-. bes-. f-. r f-. bes-. f-. | r f8-. bes-. f-. r f-. bes-. f-. | 
 r f8-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. a-. f-. a-. f-. |
 
-<des f bes>2-> r4 \tuplet 3/2 {r4 <des ges bes>8->~} | <des ges bes>4 f
+<des f bes>2-> r2 | r4 f
 %voix 1
 <<{ r4 f~ 	| f f2 f4~  | f f2 f4~ 		
 | f f2 f4~ 	| f f2 f4~ 	| f f2 f4~ 	| f f2 f4~ 		} 
@@ -32,7 +32,8 @@ AltSaxOne =
 	\clef "treble" \key des \major 
 %Intro
 
-\xNote { f16_\markup{\italic batterie} f f f }   	| r4 <aes des ees>2\mp <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
+\xNote { f16_\markup{\italic batterie} f f f }   	| 
+r4 <aes des ees>2\mp <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |
 \repeat unfold 4 {r4 <aes des ees>2 <aes des ees>8. <ges bes des>16~ | <ges bes des>1 |}
 r4 <aes des ees>2 <aes des ees>8. <ges bes des>16~ | <ges bes des>2 r4 <aes c ees f>4-> |
 %--------------
@@ -55,12 +56,10 @@ r f8-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. a-. f-. a-. f-. |
 r8 f-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. r f-. bes-. f-. | 
 r f-. bes-. f-. r f-. bes-. f-. | r f-. bes-. f-. r2 |
 \mark "D"
-r8 aes-.\mf aes-. aes-. aes4-. aes8.-. bes16-. 		| r8 ees,16( f aes8. bes16-.) r2 |
-r8 aes-. aes-. aes-. aes4-. aes8.-. bes16-. 		| r8 f,16( aes aes bes des ees) r8 f,(\f bes16 c8 des16~ |
-des8.-> c16~ c8 bes~ bes16 aes8. f4) 				| r4  << { r8. aes ~ aes4 } \\ { ees4.~\mf <<ees4 f4>>} >> bes16( c | 
-des8. c16 bes16 aes8 aes16~ aes4 ) r4 				| r4    << { r8. aes ~ <bes aes>4-> } \\ { f4.~\mf f4} >> r8 | 
-des'8. c16 bes8.-> aes16~ aes8 f~ f4 				| r1 			|
-des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
+r8 aes-.^\markup{ \italic groovy}\p aes-. aes-. aes4-. aes8.( bes16-.) | r8 ees,16( f aes8. bes16-.) r2 |
+r8 aes-. aes-. aes-. aes4-. aes8.( bes16-.) | r8 aes-.  bes-. des16( ees) r2 |
+\repeat unfold  3 {r8 aes,-. aes-. aes-. aes4-. aes8.( bes16-.) | r8 ees,16( f aes8. bes16-.) r2 |}
+r8 aes-. aes-. aes-. aes4-. aes8.( bes16-.) | r8 aes-.  bes-. des16( ees) r2 |
 
 
 \mark "E"
@@ -70,19 +69,19 @@ des'8-> bes16 des~ des ees8. ees4 des16 ees8 f16->~ | f8 des-. ees16 f8. f4-> r|
 \relative c'' \NotesFAltSax
 
 \mark "G"
-R1*5 |
-f16->\mp ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des |
+R1*5^\markup{tapez 2eme et 4eme} |
+f,16->\mp ees8 f16~ f16 aes8 f16-. r f8.-> ees8-> des |
 bes8 r r2 r8 des16->( ees | ees ees ees ees~ ees des8 f16~ f8.) des16( ees8 des) |
 r2. 	f16 aes8 bes16~ | bes16 aes8 f16~ f8 des ees f ees des-> |
 r2. bes16 des8 ees16~ | ees2 <c f> |
 
 
 \mark "H"
-R1*4 |
+R1*4^\markup{tapez 2eme et 4eme} |
 <bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
 <bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. |
 
-<bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | \repeat unfold 8 {<bes bes' des> r } |
+<bes bes'>4 <bes bes'>-. r4 r8 <aes aes'>16 <aes aes'> | \repeat unfold 8 {<bes bes'>8-. } |
 
 \repeat volta 2 {
 \mark "I"

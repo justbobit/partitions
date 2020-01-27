@@ -6,7 +6,7 @@ ges4-> ges->  ges-> ges-> | f f a a-> | bes,\< c des ees | f ges a\!\ff r |
 NotesFBass = {
 bes2\fff r4 aes | ges2. f4 | ees2 r4 des | c2 f |
 bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |
-bes2 r4 \tuplet 3/2 4 {aes8 r ges->~} | ges2. f4 | ees2 r4 des | c2 f |	
+bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |
 bes2 r4 aes | ges2. f4 | ees2 r4 des | c2 f |	
 }
 

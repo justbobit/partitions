@@ -37,7 +37,7 @@
 \header
     {
       title = "Still Feel - Half Alive"
-      composer = "Josh Taylor - Arrgt. Bobby V2"
+      composer = "Josh Taylor - Arrgt. Bobby V3"
     }
   \bookpart{
   \score

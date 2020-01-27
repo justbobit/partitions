@@ -56,7 +56,7 @@
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Alto Sax"
           \set Staff.midiInstrument = #"alto sax" %"
-          \relative c' {\AltSaxOne} 
+          \relative c {\AltSaxOne} 
         }
         \new Staff
         {
