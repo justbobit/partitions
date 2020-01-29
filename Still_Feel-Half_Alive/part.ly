@@ -36,7 +36,7 @@
     \header
     {
       title = "Still Feel - Half Alive"
-      composer = "Josh Taylor - Arrgt. Bobby V2"
+      composer = "Josh Taylor - Arrgt. Bobby V3"
     }
   \score
   {
@@ -46,47 +46,47 @@
          #(set-accidental-style 'modern)
          \set Staff.instrumentName = Clarinet
          \set Staff.midiInstrument = #"clarinet"
-         \relative c'' { \partial 4 \ClarOne}
+         \relative c'' { \partial 4 \large \ClarOne}
        }
         \new Staff
         {
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Trumpet"
           \set Staff.midiInstrument = #"trumpet"
-            \relative c'' {\Trumpet}
+            \relative c'' {\large \Trumpet}
         }
         \new Staff
         {
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Alto Sax"
           \set Staff.midiInstrument = #"alto sax" %"
-          \relative c' {\AltSaxOne} 
+          \relative c' {\large \AltSaxOne} 
         }
         \new Staff
         {
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Trombone"
           \set Staff.midiInstrument = #"trombone"
-          \relative c' {\clef "bass" \key des \major \TromOne}
+          \relative c' {\clef "bass" \key des \major \large \TromOne}
         }
         \new Staff
         {
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Tenor Sax"
           \set Staff.midiInstrument = #"tenor sax" %"
-          \relative c' {{\clef "treble" \key des \major \TenorOne}}
+          \relative c' {{\clef "treble" \key des \major \large \TenorOne}}
         }
         \new Staff
         {
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Euphonium"
-          \relative c' {\Eupho}
+          \relative c' {\large \Eupho}
         }
         \new Staff
         {
           #(set-accidental-style 'modern)
           \set Staff.instrumentName = "Bar. Sax."
-          \relative c' {\SaxBar}
+          \relative c' {\large \SaxBar}
         }
         \new Staff
         {

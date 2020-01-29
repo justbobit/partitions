@@ -63,14 +63,14 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 R1*2 \repeat unfold 2 {bes4 bes-. r4 r8. aes16 | 
 bes16 bes8 aes16 bes4-. r4 f'16 aes,8. | }
 
-bes4 bes-. r4 r8. aes16 | \repeat unfold 8 {<bes' des> r}|
+bes4 bes-. r4 r8 aes-.\<\p | \repeat unfold 7 {<bes des>8-.} <bes des>8-.\!\f|
 
 \repeat volta 2 {
 \mark "I"
 \relative c' {\NotesIBass}
 
 }
-f1 \bar "|."
+f'1 \bar "|."
 
 
 }

@@ -19,11 +19,11 @@
   #(set-paper-size "my size")
   ragged-bottom = ##t
   % For 3 page layout:
-  #(layout-set-staff-size 13)
-  top-margin    =5
+  #(layout-set-staff-size 14)
+  top-margin    =2
   bottom-margin =5
-  left-margin   =10
-  right-margin  =10
+  left-margin   =8
+  right-margin  =8
   
   %annotate-spacing = ##t
   %{ %}
@@ -49,14 +49,14 @@
          \transpose c d {\relative c'' {
           \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
           \set Score.markFormatter = #format-mark-box-alphabet
-          \partial 4 \ClarOne}}
+          \partial 4 \large \ClarOne}}
       }
       \layout {}
     }
   }
   \bookpart{
     \score{
-          \new Staff
+          \new Staff 
           {
             #(set-accidental-style 'modern)
             \set Staff.instrumentName = "Trumpet"
@@ -64,7 +64,7 @@
             \transpose c d{\relative c'' { 
           \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
           \set Score.markFormatter = #format-mark-box-alphabet
-           \Trumpet}}
+           \large \Trumpet}}
           }
      \layout {}
     }
@@ -79,7 +79,7 @@
             \transpose ees c {\relative c' { 
           \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
           \set Score.markFormatter = #format-mark-box-alphabet
-          \partial 4 \AltSaxOne}}
+          \partial 4 \large \AltSaxOne}}
           }
      \layout {}
     }
@@ -109,7 +109,7 @@
             \transpose c d {\relative c' {{\clef "treble" \key des \major 
           \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
           \set Score.markFormatter = #format-mark-box-alphabet
-          \partial 4 \TenorOne}}}
+          \partial 4 \large \TenorOne}}}
           }
          \layout {}
     }  
@@ -124,7 +124,7 @@
             \transpose ees c {\relative c' { \partial 4 
           \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
           \set Score.markFormatter = #format-mark-box-alphabet
-           \SaxBar}}
+           \large \SaxBar}}
           }
          \layout {}
     }
@@ -139,7 +139,7 @@
             \transpose c d {\relative c' { \partial 4 
           \compressFullBarRests \override MultiMeasureRest.expand-limit = #0
           \set Score.markFormatter = #format-mark-box-alphabet
-          \Eupho}}
+          \large \Eupho}}
           }
          \layout {}
     }

@@ -17,10 +17,12 @@ bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. | bes8. bes16 r2 r8 aes-. | be
 }
 
 NotesIBass = {
-\repeat unfold 4 {
+\repeat unfold 3 {
 bes'4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
 ees4 r4. ees8 des4 | c8 c f c des ees  f aes |
 }
+bes4-. r4. bes8 aes4-> | ges4-. r4. f8 ees4 |
+ees4 r4. ees8 des4 | c8 c f c des ees  r4 |
 }
 
 Bass =  {
@@ -69,8 +71,7 @@ f,8( bes, des-> ees f aes f8. aes16~     | aes4)  r2. |
 \repeat unfold 3 {bes4 bes-. r4 r8. aes16 | 
 bes16 bes8 aes16 bes4-. r4 f'16 aes,8. | }
 
-bes4 bes-. r4 r8. aes16 | 
-\repeat unfold 8 {bes r} |
+bes4 bes-. r4 r8 aes-.\<\p | \repeat unfold 7 {<bes des>8-.} <bes des>8-.\!\f|
 
 \repeat volta 2 {
 \mark "I"

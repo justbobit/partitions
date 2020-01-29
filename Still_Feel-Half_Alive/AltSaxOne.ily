@@ -81,13 +81,13 @@ R1*4^\markup{tapez 2eme et 4eme} |
 <bes bes'>4 <bes bes'>-. r4 r8. <aes aes'>16 | 
 <bes bes'>16 <bes bes'>8 <aes aes'>16 <bes bes'>4-. r4 f'16 <aes, aes'>8. |
 
-<bes bes'>4 <bes bes'>-. r4 r8 <aes aes'>16 <aes aes'> | \repeat unfold 8 {<bes bes'>8-. } |
+<bes bes'>4 <bes bes'>-. r4 r8 <aes aes'>16\<\p <aes aes'> | \repeat unfold 7 {<bes bes'>8-.} <bes bes'>8-.\!\f|
 
 \repeat volta 2 {
 \mark "I"
 r2 f'4( f8. ees16~ | ees des bes8) f'->( des ees8.-> des16~ des4) |
 r4 f16( des8 ees16~-> ees8 des4.) | r4 aes'8(  f8~ f des ees16 f8.) |
-r1 		| r4 f8 des ees8. des16~ des4 | r4 f8 des ees8. des16~ des4 | 
+r1 		| r4 f8 des ees8. des16~ des4 | r4 f16( des8 ees16~-> ees8 des4.) 	|
 r4 aes'8( f8~ f des ees16 f8.) |
 
 \mark "J"
